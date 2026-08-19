@@ -1,10 +1,11 @@
 node_modules/
-data/*.csv
-data/*.txt
-!data/.gitkeep
-data/*.duckdb
-data/*.duckdb.wal
-data/comtrade_country_reference.json
-data/comtrade_hs_reference.json
-*.log
+dist/
+.wrangler/
+.dev.vars
+.env
+.env.*
 .DS_Store
+*.log
+
+# TypeScript build cache
+*.tsbuildinfo

@@ -1,0 +1,44 @@
+{
+  "847130": {
+    "upstream": [
+      {"hs":"854231","label":"Processors and controllers","relation":"common electronic input","confidence":"high"},
+      {"hs":"854232","label":"Memories","relation":"common electronic input","confidence":"high"},
+      {"hs":"853400","label":"Printed circuits","relation":"common electronic input","confidence":"high"},
+      {"hs":"850760","label":"Lithium-ion accumulators","relation":"portable-device power input","confidence":"high"}
+    ],
+    "downstream": [],
+    "context":"Portable computers combine semiconductor, printed-circuit, storage/display and battery subsystems. Trade data does not identify which imported inputs entered a specific exported computer."
+  },
+  "853400": {
+    "upstream": [],
+    "downstream": [
+      {"hs":"8471","label":"Automatic data processing machines","relation":"commonly incorporated in","confidence":"high"},
+      {"hs":"8517","label":"Telecommunications apparatus","relation":"commonly incorporated in","confidence":"high"}
+    ],
+    "context":"Printed circuits are intermediate electronic inputs used across computing and communications equipment."
+  },
+  "854231": {
+    "upstream": [],
+    "downstream": [
+      {"hs":"8471","label":"Automatic data processing machines","relation":"commonly incorporated in","confidence":"high"},
+      {"hs":"8517","label":"Telecommunications apparatus","relation":"commonly incorporated in","confidence":"high"}
+    ],
+    "context":"Processors/controllers are intermediate integrated circuits used across computing, communications and embedded electronic systems."
+  },
+  "854232": {
+    "upstream": [],
+    "downstream": [
+      {"hs":"8471","label":"Automatic data processing machines","relation":"commonly incorporated in","confidence":"high"},
+      {"hs":"8517","label":"Telecommunications apparatus","relation":"commonly incorporated in","confidence":"high"}
+    ],
+    "context":"Memory integrated circuits are intermediate inputs used in computing, communications and other digital equipment."
+  },
+  "850760": {
+    "upstream": [],
+    "downstream": [
+      {"hs":"847130","label":"Portable computers","relation":"power source used in","confidence":"high"},
+      {"hs":"8517","label":"Telecommunications apparatus","relation":"power source used in portable devices","confidence":"medium"}
+    ],
+    "context":"Lithium-ion accumulators feed multiple portable-electronics and energy-storage value chains; HS trade data does not reveal end-use allocation."
+  }
+}

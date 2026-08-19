@@ -1,0 +1,401 @@
+{
+  "schemaVersion": "0.5.2-revalidated",
+  "generatedAt": "2026-08-18T08:13:01.760951+00:00",
+  "source": "UN Comtrade API",
+  "product": {
+    "hs6": "854149",
+    "description": "Electrical apparatus; photosensitive semiconductor devices, diodes other than light emitting diodes and photovoltaic cells whether or not assembled in modules or made up into panels",
+    "classification": "H6",
+    "level": 6
+  },
+  "period": {
+    "start": 2021,
+    "end": 2025,
+    "latest": 2025
+  },
+  "global": {
+    "available": false,
+    "comparisonYear": null,
+    "latestRequestedYear": 2025,
+    "reportedWorldExports": null,
+    "reportedWorldImports": null,
+    "worldExportGrowthYoY": null,
+    "indiaExportRank": null,
+    "indiaImportRank": null,
+    "indiaExportShare": null,
+    "indiaImportShare": null,
+    "leader": null,
+    "leaderShare": null,
+    "reporterCount": 0,
+    "coverageStatus": "incomplete",
+    "coverageNote": "No year in the existing raw files passed reporter-coverage validation. Global total, India share and rank are withheld.",
+    "coverageAudit": [],
+    "topExporters": [],
+    "topImporters": []
+  },
+  "india": {
+    "reporterCode": 699,
+    "imports": 33066691.349,
+    "exports": 2691631.856,
+    "tradeBalance": -30375059.493,
+    "importGrowthYoY": 30.9889680701112,
+    "exportGrowthYoY": -86.12250815570096,
+    "importCAGR": 8.325325490269385,
+    "exportCAGR": -14.95613923866469,
+    "largestSupplier": {
+      "code": 156,
+      "iso": "CHN",
+      "name": "China",
+      "value": 11559270.948,
+      "share": 34.95744653131005,
+      "quantity": 139942021.0,
+      "quantityUnit": "u",
+      "netWeightKg": null,
+      "quantityEstimated": false,
+      "netWeightEstimated": false
+    },
+    "largestDestination": {
+      "code": 682,
+      "iso": "SAU",
+      "name": "Saudi Arabia",
+      "value": 357823.761,
+      "share": 13.293933945772112,
+      "quantity": 454.0,
+      "quantityUnit": "u",
+      "netWeightKg": null,
+      "quantityEstimated": false,
+      "netWeightEstimated": false
+    },
+    "supplierConcentration": {
+      "largestShare": 34.95744653131005,
+      "top3Share": 71.58193183944248,
+      "hhi": 0.2193331126017181,
+      "level": "Moderate"
+    },
+    "exportMarketConcentration": {
+      "largestShare": 13.293933945772112,
+      "top3Share": 31.070376624343233,
+      "hhi": 0.053001210128401345,
+      "level": "Low"
+    }
+  },
+  "trend": [
+    {
+      "year": 2021,
+      "indiaImports": null,
+      "indiaExports": null,
+      "reportedWorldExports": null
+    },
+    {
+      "year": 2022,
+      "indiaImports": 26013616.511,
+      "indiaExports": 4376095.15,
+      "reportedWorldExports": null
+    },
+    {
+      "year": 2023,
+      "indiaImports": 26989137.474,
+      "indiaExports": 3933153.063,
+      "reportedWorldExports": null
+    },
+    {
+      "year": 2024,
+      "indiaImports": 25243874.989,
+      "indiaExports": 19395665.198,
+      "reportedWorldExports": 9060854842.224
+    },
+    {
+      "year": 2025,
+      "indiaImports": 33066691.349,
+      "indiaExports": 2691631.856,
+      "reportedWorldExports": 8319420177.011
+    }
+  ],
+  "suppliers": [
+    {
+      "code": 156,
+      "iso": "CHN",
+      "name": "China",
+      "value": 11559270.948,
+      "share": 34.95744653131005,
+      "quantity": 139942021.0,
+      "quantityUnit": "u",
+      "netWeightKg": null,
+      "quantityEstimated": false,
+      "netWeightEstimated": false
+    },
+    {
+      "code": 251,
+      "iso": "FRA",
+      "name": "France",
+      "value": 9376775.013,
+      "share": 28.35716133202898,
+      "quantity": 584.0,
+      "quantityUnit": "u",
+      "netWeightKg": null,
+      "quantityEstimated": false,
+      "netWeightEstimated": false
+    },
+    {
+      "code": 826,
+      "iso": "GBR",
+      "name": "United Kingdom",
+      "value": 2733730.502,
+      "share": 8.267323976103443,
+      "quantity": 93445.0,
+      "quantityUnit": "u",
+      "netWeightKg": null,
+      "quantityEstimated": false,
+      "netWeightEstimated": false
+    },
+    {
+      "code": 704,
+      "iso": "VNM",
+      "name": "Viet Nam",
+      "value": 2347370.669,
+      "share": 7.098897933950653,
+      "quantity": 1605778.0,
+      "quantityUnit": "u",
+      "netWeightKg": null,
+      "quantityEstimated": false,
+      "netWeightEstimated": false
+    },
+    {
+      "code": 842,
+      "iso": "USA",
+      "name": "USA",
+      "value": 1199915.641,
+      "share": 3.6287744314530213,
+      "quantity": 518428.0,
+      "quantityUnit": "u",
+      "netWeightKg": null,
+      "quantityEstimated": false,
+      "netWeightEstimated": false
+    },
+    {
+      "code": 410,
+      "iso": "KOR",
+      "name": "Rep. of Korea",
+      "value": 1052746.944,
+      "share": 3.18370813967705,
+      "quantity": 22986177.0,
+      "quantityUnit": "u",
+      "netWeightKg": null,
+      "quantityEstimated": false,
+      "netWeightEstimated": false
+    },
+    {
+      "code": 276,
+      "iso": "DEU",
+      "name": "Germany",
+      "value": 910383.268,
+      "share": 2.7531731505623767,
+      "quantity": 331385.0,
+      "quantityUnit": "u",
+      "netWeightKg": null,
+      "quantityEstimated": false,
+      "netWeightEstimated": false
+    },
+    {
+      "code": 392,
+      "iso": "JPN",
+      "name": "Japan",
+      "value": 772006.771,
+      "share": 2.3346961534551807,
+      "quantity": 971190.0,
+      "quantityUnit": "u",
+      "netWeightKg": null,
+      "quantityEstimated": false,
+      "netWeightEstimated": false
+    },
+    {
+      "code": 702,
+      "iso": "SGP",
+      "name": "Singapore",
+      "value": 700215.51,
+      "share": 2.1175856471687053,
+      "quantity": 2517585.0,
+      "quantityUnit": "u",
+      "netWeightKg": null,
+      "quantityEstimated": false,
+      "netWeightEstimated": false
+    },
+    {
+      "code": 458,
+      "iso": "MYS",
+      "name": "Malaysia",
+      "value": 561240.509,
+      "share": 1.697298659477078,
+      "quantity": 4210046.0,
+      "quantityUnit": "u",
+      "netWeightKg": null,
+      "quantityEstimated": false,
+      "netWeightEstimated": false
+    }
+  ],
+  "destinations": [
+    {
+      "code": 682,
+      "iso": "SAU",
+      "name": "Saudi Arabia",
+      "value": 357823.761,
+      "share": 13.293933945772112,
+      "quantity": 454.0,
+      "quantityUnit": "u",
+      "netWeightKg": null,
+      "quantityEstimated": false,
+      "netWeightEstimated": false
+    },
+    {
+      "code": 842,
+      "iso": "USA",
+      "name": "USA",
+      "value": 329218.784,
+      "share": 12.23119659793475,
+      "quantity": 50340.0,
+      "quantityUnit": "u",
+      "netWeightKg": null,
+      "quantityEstimated": false,
+      "netWeightEstimated": false
+    },
+    {
+      "code": 156,
+      "iso": "CHN",
+      "name": "China",
+      "value": 149257.61,
+      "share": 5.54524608063637,
+      "quantity": 741094.0,
+      "quantityUnit": "u",
+      "netWeightKg": null,
+      "quantityEstimated": false,
+      "netWeightEstimated": false
+    },
+    {
+      "code": 643,
+      "iso": "RUS",
+      "name": "Russian Federation",
+      "value": 124568.741,
+      "share": 4.628000694906325,
+      "quantity": 293262.0,
+      "quantityUnit": "u",
+      "netWeightKg": null,
+      "quantityEstimated": false,
+      "netWeightEstimated": false
+    },
+    {
+      "code": 458,
+      "iso": "MYS",
+      "name": "Malaysia",
+      "value": 123084.145,
+      "share": 4.572844712237646,
+      "quantity": 10213.0,
+      "quantityUnit": "u",
+      "netWeightKg": null,
+      "quantityEstimated": false,
+      "netWeightEstimated": false
+    },
+    {
+      "code": 218,
+      "iso": "ECU",
+      "name": "Ecuador",
+      "value": 123008.713,
+      "share": 4.5700422487494885,
+      "quantity": 4199.0,
+      "quantityUnit": "u",
+      "netWeightKg": null,
+      "quantityEstimated": false,
+      "netWeightEstimated": false
+    },
+    {
+      "code": 702,
+      "iso": "SGP",
+      "name": "Singapore",
+      "value": 108966.685,
+      "share": 4.0483502510604845,
+      "quantity": 97.0,
+      "quantityUnit": "u",
+      "netWeightKg": null,
+      "quantityEstimated": false,
+      "netWeightEstimated": false
+    },
+    {
+      "code": 144,
+      "iso": "LKA",
+      "name": "Sri Lanka",
+      "value": 84380.731,
+      "share": 3.1349283822713083,
+      "quantity": 238060.0,
+      "quantityUnit": "u",
+      "netWeightKg": null,
+      "quantityEstimated": false,
+      "netWeightEstimated": false
+    },
+    {
+      "code": 524,
+      "iso": "NPL",
+      "name": "Nepal",
+      "value": 84321.99,
+      "share": 3.1327460258740523,
+      "quantity": 7582.0,
+      "quantityUnit": "u",
+      "netWeightKg": null,
+      "quantityEstimated": false,
+      "netWeightEstimated": false
+    },
+    {
+      "code": 706,
+      "iso": "SOM",
+      "name": "Somalia",
+      "value": 82765.574,
+      "share": 3.0749217734031746,
+      "quantity": 103.0,
+      "quantityUnit": "u",
+      "netWeightKg": null,
+      "quantityEstimated": false,
+      "netWeightEstimated": false
+    }
+  ],
+  "india8": {
+    "available": true,
+    "lines": [
+      {
+        "code": "85414900",
+        "description": "None",
+        "imports": 33066691.349148598,
+        "exports": 2691631.855792151,
+        "tradeBalance": -30375059.493356448,
+        "quantity": 179150142.0,
+        "quantityUnit": "u"
+      }
+    ],
+    "note": "India national tariff-line trade detail returned by UN Comtrade. DGFT remains the reference for official ITC(HS) nomenclature and policy treatment."
+  },
+  "supplyChain": {
+    "available": false,
+    "upstream": [],
+    "downstream": [],
+    "note": "No curated supply-chain context for this code."
+  },
+  "provenance": {
+    "authenticated": true,
+    "indiaImportRaw": "data/raw/comtrade/2021-2025_699_854149_M_ALL.parquet",
+    "indiaExportRaw": "data/raw/comtrade/2021-2025_699_854149_X_ALL.parquet",
+    "globalRaw": [
+      "data/raw/comtrade/2024-2025_ALLREPORTERS_854149_X_WORLD.parquet",
+      "data/raw/comtrade/2025_ALLREPORTERS_854149_M_WORLD.parquet"
+    ],
+    "quantityCaution": "Quantity and weight may be estimated; inspect estimation flags before unit-value analysis.",
+    "globalRawRevalidation": {
+      "exportFiles": [
+        "2024-2025_ALLREPORTERS_854149_X_WORLD.parquet"
+      ],
+      "importFiles": [
+        "2025_ALLREPORTERS_854149_M_WORLD.parquet"
+      ]
+    }
+  },
+  "quality": {
+    "globalCoverageStatus": "incomplete",
+    "revalidatedOffline": true
+  }
+}

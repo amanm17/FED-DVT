@@ -1,0 +1,157 @@
+{
+  "product": {
+    "hsCode": "847130",
+    "description": "Automatic data processing machines; portable, weighing not more than 10kg, consisting of at least a central processing unit, a keyboard and a display",
+    "classification": "H6",
+    "level": 6
+  },
+  "context": {
+    "reporterCode": 699,
+    "reporterISO": "IND",
+    "reporter": "India",
+    "year": 2025,
+    "flow": "Import"
+  },
+  "headline": {
+    "tradeValue": 6258053926.698,
+    "quantity": 12239418.003,
+    "quantityUnit": "u",
+    "netWeightKg": 20703659.498
+  },
+  "supplierConcentration": {
+    "largestSupplier": "China",
+    "largestSupplierShare": 0.9435165098659498,
+    "top3Share": 0.9865745961269894,
+    "hhi": 0.8917963709384029,
+    "classification": "High"
+  },
+  "topPartners": [
+    {
+      "partnerCode": 156,
+      "partnerISO": "CHN",
+      "partner": "China",
+      "tradeValue": 5904577199.471,
+      "share": 0.9435165098659498,
+      "quantity": 11541588.0,
+      "quantityUnit": "u",
+      "netWeightKg": 19534244.551,
+      "quantityEstimated": false,
+      "netWeightEstimated": true
+    },
+    {
+      "partnerCode": 704,
+      "partnerISO": "VNM",
+      "partner": "Viet Nam",
+      "tradeValue": 244402752.775,
+      "share": 0.039054114208305755,
+      "quantity": 417641.0,
+      "quantityUnit": "u",
+      "netWeightKg": 808563.083,
+      "quantityEstimated": false,
+      "netWeightEstimated": true
+    },
+    {
+      "partnerCode": 490,
+      "partnerISO": "S19",
+      "partner": "Other Asia, nes",
+      "tradeValue": 25057073.027,
+      "share": 0.00400397205273383,
+      "quantity": 24696.0,
+      "quantityUnit": "u",
+      "netWeightKg": 82896.874,
+      "quantityEstimated": false,
+      "netWeightEstimated": true
+    },
+    {
+      "partnerCode": 344,
+      "partnerISO": "HKG",
+      "partner": "China, Hong Kong SAR",
+      "tradeValue": 24438654.029,
+      "share": 0.0039051523549102447,
+      "quantity": 146303.0,
+      "quantityUnit": "u",
+      "netWeightKg": 80850.945,
+      "quantityEstimated": false,
+      "netWeightEstimated": true
+    },
+    {
+      "partnerCode": 458,
+      "partnerISO": "MYS",
+      "partner": "Malaysia",
+      "tradeValue": 19954110.105,
+      "share": 0.0031885487627187304,
+      "quantity": 19143.0,
+      "quantityUnit": "u",
+      "netWeightKg": 66014.628,
+      "quantityEstimated": false,
+      "netWeightEstimated": true
+    },
+    {
+      "partnerCode": 702,
+      "partnerISO": "SGP",
+      "partner": "Singapore",
+      "tradeValue": 8960140.622,
+      "share": 0.0014317774705926397,
+      "quantity": 7442.0,
+      "quantityUnit": "u",
+      "netWeightKg": 29643.033,
+      "quantityEstimated": false,
+      "netWeightEstimated": true
+    },
+    {
+      "partnerCode": 842,
+      "partnerISO": "USA",
+      "partner": "USA",
+      "tradeValue": 8749731.319,
+      "share": 0.001398155308581163,
+      "quantity": 14798.0,
+      "quantityUnit": "u",
+      "netWeightKg": 28946.931,
+      "quantityEstimated": false,
+      "netWeightEstimated": true
+    },
+    {
+      "partnerCode": 764,
+      "partnerISO": "THA",
+      "partner": "Thailand",
+      "tradeValue": 7686259.034,
+      "share": 0.001228218728063211,
+      "quantity": 33795.0,
+      "quantityUnit": "u",
+      "netWeightKg": 25428.622,
+      "quantityEstimated": false,
+      "netWeightEstimated": true
+    },
+    {
+      "partnerCode": 410,
+      "partnerISO": "KOR",
+      "partner": "Rep. of Korea",
+      "tradeValue": 4481653.533,
+      "share": 0.0007161417248068841,
+      "quantity": 21913.0,
+      "quantityUnit": "u",
+      "netWeightKg": 14826.754,
+      "quantityEstimated": false,
+      "netWeightEstimated": true
+    },
+    {
+      "partnerCode": 276,
+      "partnerISO": "DEU",
+      "partner": "Germany",
+      "tradeValue": 2416125.731,
+      "share": 0.000386082600006428,
+      "quantity": 1609.0,
+      "quantityUnit": "u",
+      "netWeightKg": 7993.323,
+      "quantityEstimated": false,
+      "netWeightEstimated": true
+    }
+  ],
+  "provenance": {
+    "source": "UN Comtrade",
+    "sourceFile": "data/raw/comtrade/2025_699_847130_M_ALL.parquet",
+    "reportedAggregate": true,
+    "quantityEstimated": true,
+    "netWeightEstimated": true
+  }
+}

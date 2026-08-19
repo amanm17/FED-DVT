@@ -1,0 +1,3451 @@
+{
+  "schemaVersion": "0.5.2-revalidated",
+  "generatedAt": "2026-08-18T08:55:14.255100+00:00",
+  "source": "UN Comtrade API",
+  "product": {
+    "hs6": "854110",
+    "description": "Electrical apparatus; diodes, other than photosensitive or light-emitting diodes (LED)",
+    "classification": "H6",
+    "level": 6
+  },
+  "period": {
+    "start": 2020,
+    "end": 2025,
+    "latest": 2025,
+    "years": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+    ]
+  },
+  "global": {
+    "available": true,
+    "comparisonYear": 2024,
+    "latestRequestedYear": 2025,
+    "reportedWorldExports": 10329640401.409,
+    "reportedWorldImports": 12055761286.951,
+    "worldExportGrowthYoY": -9.570509415685658,
+    "indiaExportRank": 27,
+    "indiaImportRank": 8,
+    "indiaExportShare": 0.11770752695651923,
+    "indiaImportShare": 3.6389450660477656,
+    "leader": "China, Hong Kong SAR",
+    "leaderShare": 25.29421773029586,
+    "reporterCount": 96,
+    "coverageStatus": "validated",
+    "coverageNote": "Global comparison uses 2024, the latest year in locally stored Comtrade data passing reporter-coverage checks. India headline trade remains 2025.",
+    "coverageAudit": [
+      {
+        "year": 2025,
+        "valid": false,
+        "exports": {
+          "valid": false,
+          "reason": "prior top-20 value coverage 75.3%; reporter-count ratio 74.0%",
+          "reporterCount": 71,
+          "previousReporterCount": 96,
+          "reporterCountRatio": 0.7395833333333334,
+          "top5Present": 4,
+          "weightedTop20Coverage": 0.7529158595029654,
+          "previousLeaderPresent": true
+        },
+        "imports": {
+          "valid": false,
+          "reason": "prior leader China missing; prior top-20 value coverage 74.2%; reporter-count ratio 69.9%",
+          "reporterCount": 95,
+          "previousReporterCount": 136,
+          "reporterCountRatio": 0.6985294117647058,
+          "top5Present": 4,
+          "weightedTop20Coverage": 0.7417791560062696,
+          "previousLeaderPresent": false
+        }
+      },
+      {
+        "year": 2024,
+        "valid": true,
+        "exports": {
+          "valid": true,
+          "reason": "Coverage checks passed",
+          "reporterCount": 96,
+          "previousReporterCount": 108,
+          "reporterCountRatio": 0.8888888888888888,
+          "top5Present": 5,
+          "weightedTop20Coverage": 1.0,
+          "previousLeaderPresent": true
+        },
+        "imports": {
+          "valid": true,
+          "reason": "Coverage checks passed",
+          "reporterCount": 136,
+          "previousReporterCount": 163,
+          "reporterCountRatio": 0.8343558282208589,
+          "top5Present": 5,
+          "weightedTop20Coverage": 0.9679665537551235,
+          "previousLeaderPresent": true
+        }
+      }
+    ],
+    "topExporters": [
+      {
+        "code": 344,
+        "iso": "HKG",
+        "name": "China, Hong Kong SAR",
+        "value": 2612801733.889,
+        "share": 25.29421773029586,
+        "rank": 1
+      },
+      {
+        "code": 156,
+        "iso": "CHN",
+        "name": "China",
+        "value": 2492331815.0,
+        "share": 24.127963008857858,
+        "rank": 2
+      },
+      {
+        "code": 276,
+        "iso": "DEU",
+        "name": "Germany",
+        "value": 1077389758.469,
+        "share": 10.430080008613274,
+        "rank": 3
+      },
+      {
+        "code": 702,
+        "iso": "SGP",
+        "name": "Singapore",
+        "value": 920177947.882,
+        "share": 8.908131475288185,
+        "rank": 4
+      },
+      {
+        "code": 842,
+        "iso": "USA",
+        "name": "USA",
+        "value": 649223149.0,
+        "share": 6.28505082240272,
+        "rank": 5
+      },
+      {
+        "code": 458,
+        "iso": "MYS",
+        "name": "Malaysia",
+        "value": 499450489.084,
+        "share": 4.835119807422077,
+        "rank": 6
+      },
+      {
+        "code": 392,
+        "iso": "JPN",
+        "name": "Japan",
+        "value": 470939186.876,
+        "share": 4.559105337410992,
+        "rank": 7
+      },
+      {
+        "code": 410,
+        "iso": "KOR",
+        "name": "Rep. of Korea",
+        "value": 291793631.0,
+        "share": 2.8248188674622043,
+        "rank": 8
+      },
+      {
+        "code": 764,
+        "iso": "THA",
+        "name": "Thailand",
+        "value": 134674500.169,
+        "share": 1.3037675556511137,
+        "rank": 9
+      },
+      {
+        "code": 608,
+        "iso": "PHL",
+        "name": "Philippines",
+        "value": 132459544.0,
+        "share": 1.2823248327398893,
+        "rank": 10
+      }
+    ],
+    "topImporters": [
+      {
+        "code": 156,
+        "iso": "CHN",
+        "name": "China",
+        "value": 2889259760.0,
+        "share": 23.96580100774969,
+        "rank": 1
+      },
+      {
+        "code": 344,
+        "iso": "HKG",
+        "name": "China, Hong Kong SAR",
+        "value": 2470005818.104,
+        "share": 20.488177887011602,
+        "rank": 2
+      },
+      {
+        "code": 276,
+        "iso": "DEU",
+        "name": "Germany",
+        "value": 972118503.831,
+        "share": 8.06351818597477,
+        "rank": 3
+      },
+      {
+        "code": 702,
+        "iso": "SGP",
+        "name": "Singapore",
+        "value": 574803772.338,
+        "share": 4.7678761934359155,
+        "rank": 4
+      },
+      {
+        "code": 484,
+        "iso": "MEX",
+        "name": "Mexico",
+        "value": 553398902.0,
+        "share": 4.590327303502532,
+        "rank": 5
+      },
+      {
+        "code": 410,
+        "iso": "KOR",
+        "name": "Rep. of Korea",
+        "value": 498336775.0,
+        "share": 4.1335985603778775,
+        "rank": 6
+      },
+      {
+        "code": 842,
+        "iso": "USA",
+        "name": "USA",
+        "value": 491417410.0,
+        "share": 4.076203885456025,
+        "rank": 7
+      },
+      {
+        "code": 699,
+        "iso": "IND",
+        "name": "India",
+        "value": 438702530.526,
+        "share": 3.6389450660477656,
+        "rank": 8
+      },
+      {
+        "code": 458,
+        "iso": "MYS",
+        "name": "Malaysia",
+        "value": 424527543.584,
+        "share": 3.521366535711876,
+        "rank": 9
+      },
+      {
+        "code": 392,
+        "iso": "JPN",
+        "name": "Japan",
+        "value": 419028486.9,
+        "share": 3.475753019044521,
+        "rank": 10
+      }
+    ]
+  },
+  "india": {
+    "reporterCode": 699,
+    "imports": 486271582.497,
+    "exports": 10830395.008,
+    "tradeBalance": -475441187.48899996,
+    "importGrowthYoY": 10.843122312051667,
+    "exportGrowthYoY": -10.925199498851047,
+    "importCAGR": 19.96913180868787,
+    "exportCAGR": 18.53458479058354,
+    "largestSupplier": {
+      "code": 156,
+      "iso": "CHN",
+      "name": "China",
+      "value": 283967498.603,
+      "share": 58.39689359284159,
+      "quantity": 18978210126.0,
+      "quantityUnit": "u",
+      "netWeightKg": 1138038.923,
+      "quantityEstimated": false,
+      "netWeightEstimated": true
+    },
+    "largestDestination": {
+      "code": 842,
+      "iso": "USA",
+      "name": "USA",
+      "value": 2824112.349,
+      "share": 26.07580191594061,
+      "quantity": 9284636.0,
+      "quantityUnit": "u",
+      "netWeightKg": 9029.726,
+      "quantityEstimated": false,
+      "netWeightEstimated": true
+    },
+    "supplierConcentration": {
+      "largestShare": 58.39689359284159,
+      "top3Share": 72.77397700084258,
+      "hhi": 0.3597294171230641,
+      "level": "High"
+    },
+    "exportMarketConcentration": {
+      "largestShare": 26.07580191594061,
+      "top3Share": 54.16586863790962,
+      "hhi": 0.12342900650751415,
+      "level": "Low"
+    }
+  },
+  "trend": [
+    {
+      "year": 2020,
+      "indiaImports": 195673183.357,
+      "indiaExports": 4628272.091,
+      "reportedWorldExports": 10553955477.697998
+    },
+    {
+      "year": 2021,
+      "indiaImports": 276102661.486,
+      "indiaExports": 6776708.357,
+      "reportedWorldExports": 12931683019.793999
+    },
+    {
+      "year": 2022,
+      "indiaImports": 378294872.891,
+      "indiaExports": 8538443.021,
+      "reportedWorldExports": 13262773923.078
+    },
+    {
+      "year": 2023,
+      "indiaImports": 396650035.335,
+      "indiaExports": 19657235.478,
+      "reportedWorldExports": 11422866959.289
+    },
+    {
+      "year": 2024,
+      "indiaImports": 438702530.526,
+      "indiaExports": 12158764.26,
+      "reportedWorldExports": 10329640401.409
+    },
+    {
+      "year": 2025,
+      "indiaImports": 486271582.497,
+      "indiaExports": 10830395.008,
+      "reportedWorldExports": 8366387204.563999
+    }
+  ],
+  "suppliers": [
+    {
+      "code": 156,
+      "iso": "CHN",
+      "name": "China",
+      "value": 283967498.603,
+      "share": 58.39689359284159,
+      "quantity": 18978210126.0,
+      "quantityUnit": "u",
+      "netWeightKg": 1138038.923,
+      "quantityEstimated": false,
+      "netWeightEstimated": true
+    },
+    {
+      "code": 392,
+      "iso": "JPN",
+      "name": "Japan",
+      "value": 40776210.792,
+      "share": 8.385480924592498,
+      "quantity": 1295047370.0,
+      "quantityUnit": "u",
+      "netWeightKg": 163416.29,
+      "quantityEstimated": false,
+      "netWeightEstimated": true
+    },
+    {
+      "code": 490,
+      "iso": "S19",
+      "name": "Other Asia, nes",
+      "value": 29135460.213,
+      "share": 5.991602483408487,
+      "quantity": 597161289.0,
+      "quantityUnit": "u",
+      "netWeightKg": 116764.376,
+      "quantityEstimated": false,
+      "netWeightEstimated": true
+    },
+    {
+      "code": 764,
+      "iso": "THA",
+      "name": "Thailand",
+      "value": 20305805.726,
+      "share": 4.175815831500965,
+      "quantity": 334159891.0,
+      "quantityUnit": "u",
+      "netWeightKg": 81378.318,
+      "quantityEstimated": false,
+      "netWeightEstimated": true
+    },
+    {
+      "code": 702,
+      "iso": "SGP",
+      "name": "Singapore",
+      "value": 18691540.546,
+      "share": 3.8438480097930285,
+      "quantity": 410176579.0,
+      "quantityUnit": "u",
+      "netWeightKg": 74908.927,
+      "quantityEstimated": false,
+      "netWeightEstimated": true
+    },
+    {
+      "code": 608,
+      "iso": "PHL",
+      "name": "Philippines",
+      "value": 17904965.547,
+      "share": 3.6820916935055443,
+      "quantity": 176502247.0,
+      "quantityUnit": "u",
+      "netWeightKg": 71756.619,
+      "quantityEstimated": false,
+      "netWeightEstimated": true
+    },
+    {
+      "code": 458,
+      "iso": "MYS",
+      "name": "Malaysia",
+      "value": 16582321.179,
+      "share": 3.4100946417329054,
+      "quantity": 586236130.0,
+      "quantityUnit": "u",
+      "netWeightKg": 66455.94,
+      "quantityEstimated": false,
+      "netWeightEstimated": true
+    },
+    {
+      "code": 842,
+      "iso": "USA",
+      "name": "USA",
+      "value": 15518702.095,
+      "share": 3.1913652069305827,
+      "quantity": 50710805.0,
+      "quantityUnit": "u",
+      "netWeightKg": 62193.339,
+      "quantityEstimated": false,
+      "netWeightEstimated": true
+    },
+    {
+      "code": 410,
+      "iso": "KOR",
+      "name": "Rep. of Korea",
+      "value": 14543286.641,
+      "share": 2.990774531038882,
+      "quantity": 502668532.0,
+      "quantityUnit": "u",
+      "netWeightKg": 58284.227,
+      "quantityEstimated": false,
+      "netWeightEstimated": true
+    },
+    {
+      "code": 344,
+      "iso": "HKG",
+      "name": "China, Hong Kong SAR",
+      "value": 7895656.439,
+      "share": 1.6237133164261581,
+      "quantity": 337610603.0,
+      "quantityUnit": "u",
+      "netWeightKg": 31642.932,
+      "quantityEstimated": false,
+      "netWeightEstimated": true
+    }
+  ],
+  "destinations": [
+    {
+      "code": 842,
+      "iso": "USA",
+      "name": "USA",
+      "value": 2824112.349,
+      "share": 26.07580191594061,
+      "quantity": 9284636.0,
+      "quantityUnit": "u",
+      "netWeightKg": 9029.726,
+      "quantityEstimated": false,
+      "netWeightEstimated": true
+    },
+    {
+      "code": 826,
+      "iso": "GBR",
+      "name": "United Kingdom",
+      "value": 1548728.999,
+      "share": 14.29983853641546,
+      "quantity": 1204480.0,
+      "quantityUnit": "u",
+      "netWeightKg": 4951.856,
+      "quantityEstimated": false,
+      "netWeightEstimated": true
+    },
+    {
+      "code": 276,
+      "iso": "DEU",
+      "name": "Germany",
+      "value": 1493536.185,
+      "share": 13.790228185553547,
+      "quantity": 15742984.0,
+      "quantityUnit": "u",
+      "netWeightKg": 4775.385,
+      "quantityEstimated": false,
+      "netWeightEstimated": true
+    },
+    {
+      "code": 344,
+      "iso": "HKG",
+      "name": "China, Hong Kong SAR",
+      "value": 978597.95,
+      "share": 9.035662589195933,
+      "quantity": 17784918.0,
+      "quantityUnit": "u",
+      "netWeightKg": 3128.938,
+      "quantityEstimated": false,
+      "netWeightEstimated": true
+    },
+    {
+      "code": 528,
+      "iso": "NLD",
+      "name": "Netherlands",
+      "value": 439609.985,
+      "share": 4.059039256419336,
+      "quantity": 966569.0,
+      "quantityUnit": "u",
+      "netWeightKg": 1405.595,
+      "quantityEstimated": false,
+      "netWeightEstimated": true
+    },
+    {
+      "code": 156,
+      "iso": "CHN",
+      "name": "China",
+      "value": 384317.107,
+      "share": 3.5485049872707286,
+      "quantity": 6921866.0,
+      "quantityUnit": "u",
+      "netWeightKg": 1228.803,
+      "quantityEstimated": false,
+      "netWeightEstimated": true
+    },
+    {
+      "code": 704,
+      "iso": "VNM",
+      "name": "Viet Nam",
+      "value": 381349.745,
+      "share": 3.5211065221380338,
+      "quantity": 12921597.0,
+      "quantityUnit": "u",
+      "netWeightKg": 1219.315,
+      "quantityEstimated": false,
+      "netWeightEstimated": true
+    },
+    {
+      "code": 233,
+      "iso": "EST",
+      "name": "Estonia",
+      "value": 314016.117,
+      "share": 2.8993967142292436,
+      "quantity": 105.0,
+      "quantityUnit": "u",
+      "netWeightKg": 1004.025,
+      "quantityEstimated": false,
+      "netWeightEstimated": true
+    },
+    {
+      "code": 752,
+      "iso": "SWE",
+      "name": "Sweden",
+      "value": 258721.8,
+      "share": 2.3888491583999665,
+      "quantity": 427391.0,
+      "quantityUnit": "u",
+      "netWeightKg": 827.229,
+      "quantityEstimated": false,
+      "netWeightEstimated": true
+    },
+    {
+      "code": 124,
+      "iso": "CAN",
+      "name": "Canada",
+      "value": 242739.397,
+      "share": 2.241279259165503,
+      "quantity": 266293.0,
+      "quantityUnit": "u",
+      "netWeightKg": 776.127,
+      "quantityEstimated": false,
+      "netWeightEstimated": true
+    }
+  ],
+  "yearly": {
+    "2020": {
+      "global": {
+        "available": true,
+        "reportedWorldExports": 10553955477.697998,
+        "reportedWorldImports": 12079516942.346,
+        "worldExportGrowthYoY": null,
+        "indiaExportRank": 31,
+        "indiaImportRank": 14,
+        "indiaExportShare": 0.04385343581162716,
+        "indiaImportShare": 1.6198758964528401,
+        "leader": "China, Hong Kong SAR",
+        "leaderShare": 25.71125873398012,
+        "reporterCount": 109,
+        "coverageNote": "Rankings and shares use the same available country/area reporter universe for the selected year.",
+        "topExporters": [
+          {
+            "code": 344,
+            "iso": "HKG",
+            "name": "China, Hong Kong SAR",
+            "value": 2713554799.54,
+            "share": 25.71125873398012,
+            "rank": 1
+          },
+          {
+            "code": 156,
+            "iso": "CHN",
+            "name": "China",
+            "value": 2569028637.0,
+            "share": 24.3418559271803,
+            "rank": 2
+          },
+          {
+            "code": 702,
+            "iso": "SGP",
+            "name": "Singapore",
+            "value": 1009362153.195,
+            "share": 9.56382803895587,
+            "rank": 3
+          },
+          {
+            "code": 276,
+            "iso": "DEU",
+            "name": "Germany",
+            "value": 899375519.201,
+            "share": 8.521691427460611,
+            "rank": 4
+          },
+          {
+            "code": 392,
+            "iso": "JPN",
+            "name": "Japan",
+            "value": 617670311.6,
+            "share": 5.852500637369798,
+            "rank": 5
+          },
+          {
+            "code": 842,
+            "iso": "USA",
+            "name": "USA",
+            "value": 606518744.0,
+            "share": 5.746838190493222,
+            "rank": 6
+          },
+          {
+            "code": 458,
+            "iso": "MYS",
+            "name": "Malaysia",
+            "value": 391594026.936,
+            "share": 3.71040059590448,
+            "rank": 7
+          },
+          {
+            "code": 528,
+            "iso": "NLD",
+            "name": "Netherlands",
+            "value": 274934678.796,
+            "share": 2.605039213752378,
+            "rank": 8
+          },
+          {
+            "code": 410,
+            "iso": "KOR",
+            "name": "Rep. of Korea",
+            "value": 259092940.0,
+            "share": 2.4549368295848892,
+            "rank": 9
+          },
+          {
+            "code": 251,
+            "iso": "FRA",
+            "name": "France",
+            "value": 201455211.222,
+            "share": 1.9088124035363176,
+            "rank": 10
+          }
+        ],
+        "topImporters": [
+          {
+            "code": 156,
+            "iso": "CHN",
+            "name": "China",
+            "value": 3495531064.0,
+            "share": 28.9376725963772,
+            "rank": 1
+          },
+          {
+            "code": 344,
+            "iso": "HKG",
+            "name": "China, Hong Kong SAR",
+            "value": 2344924647.857,
+            "share": 19.41240414702862,
+            "rank": 2
+          },
+          {
+            "code": 276,
+            "iso": "DEU",
+            "name": "Germany",
+            "value": 838243291.78,
+            "share": 6.939377590849276,
+            "rank": 3
+          },
+          {
+            "code": 608,
+            "iso": "PHL",
+            "name": "Philippines",
+            "value": 458119520.0,
+            "share": 3.7925317890321795,
+            "rank": 4
+          },
+          {
+            "code": 410,
+            "iso": "KOR",
+            "name": "Rep. of Korea",
+            "value": 457598684.0,
+            "share": 3.7882200603224483,
+            "rank": 5
+          },
+          {
+            "code": 842,
+            "iso": "USA",
+            "name": "USA",
+            "value": 424763903.0,
+            "share": 3.516398089653288,
+            "rank": 6
+          },
+          {
+            "code": 702,
+            "iso": "SGP",
+            "name": "Singapore",
+            "value": 412860892.158,
+            "share": 3.41785929129892,
+            "rank": 7
+          },
+          {
+            "code": 458,
+            "iso": "MYS",
+            "name": "Malaysia",
+            "value": 397721079.221,
+            "share": 3.2925247020992,
+            "rank": 8
+          },
+          {
+            "code": 392,
+            "iso": "JPN",
+            "name": "Japan",
+            "value": 370824159.826,
+            "share": 3.0698591805938644,
+            "rank": 9
+          },
+          {
+            "code": 484,
+            "iso": "MEX",
+            "name": "Mexico",
+            "value": 368709813.0,
+            "share": 3.0523556095811206,
+            "rank": 10
+          }
+        ]
+      },
+      "india": {
+        "reporterCode": 699,
+        "imports": 195673183.357,
+        "exports": 4628272.091,
+        "tradeBalance": -191044911.266,
+        "importGrowthYoY": null,
+        "exportGrowthYoY": null,
+        "importCAGR": null,
+        "exportCAGR": null,
+        "largestSupplier": {
+          "code": 156,
+          "iso": "CHN",
+          "name": "China",
+          "value": 59702634.781,
+          "share": 30.51140363576254,
+          "quantity": 8137540000.0,
+          "quantityUnit": "u",
+          "netWeightKg": 316390.901,
+          "quantityEstimated": false,
+          "netWeightEstimated": true
+        },
+        "largestDestination": {
+          "code": 842,
+          "iso": "USA",
+          "name": "USA",
+          "value": 919859.115,
+          "share": 19.87478473421497,
+          "quantity": 3032606.0,
+          "quantityUnit": "u",
+          "netWeightKg": 0.0,
+          "quantityEstimated": false,
+          "netWeightEstimated": true
+        },
+        "supplierConcentration": {
+          "largestShare": 30.51140363576254,
+          "top3Share": 67.27392833019539,
+          "hhi": 0.17692589772086464,
+          "level": "Moderate"
+        },
+        "exportMarketConcentration": {
+          "largestShare": 19.87478473421497,
+          "top3Share": 46.71056211677681,
+          "hhi": 0.09859475400531417,
+          "level": "Low"
+        }
+      },
+      "suppliers": [
+        {
+          "code": 156,
+          "iso": "CHN",
+          "name": "China",
+          "value": 59702634.781,
+          "share": 30.51140363576254,
+          "quantity": 8137540000.0,
+          "quantityUnit": "u",
+          "netWeightKg": 316390.901,
+          "quantityEstimated": false,
+          "netWeightEstimated": true
+        },
+        {
+          "code": 702,
+          "iso": "SGP",
+          "name": "Singapore",
+          "value": 42120968.849,
+          "share": 21.52618367339153,
+          "quantity": 1215820000.0,
+          "quantityUnit": "u",
+          "netWeightKg": 223217.809,
+          "quantityEstimated": false,
+          "netWeightEstimated": true
+        },
+        {
+          "code": 344,
+          "iso": "HKG",
+          "name": "China, Hong Kong SAR",
+          "value": 29813433.503,
+          "share": 15.236341021041325,
+          "quantity": 2364965700.0,
+          "quantityUnit": "u",
+          "netWeightKg": 157994.687,
+          "quantityEstimated": false,
+          "netWeightEstimated": true
+        },
+        {
+          "code": 392,
+          "iso": "JPN",
+          "name": "Japan",
+          "value": 15545488.828,
+          "share": 7.944618961729523,
+          "quantity": 325868580.0,
+          "quantityUnit": "u",
+          "netWeightKg": 82382.482,
+          "quantityEstimated": false,
+          "netWeightEstimated": true
+        },
+        {
+          "code": 490,
+          "iso": "S19",
+          "name": "Other Asia, nes",
+          "value": 10229078.516,
+          "share": 5.2276343342037555,
+          "quantity": 178132916.0,
+          "quantityUnit": "u",
+          "netWeightKg": 54208.451,
+          "quantityEstimated": false,
+          "netWeightEstimated": true
+        },
+        {
+          "code": 842,
+          "iso": "USA",
+          "name": "USA",
+          "value": 8946133.713,
+          "share": 4.571977395940884,
+          "quantity": 86224850.0,
+          "quantityUnit": "u",
+          "netWeightKg": 47409.554,
+          "quantityEstimated": false,
+          "netWeightEstimated": true
+        },
+        {
+          "code": 410,
+          "iso": "KOR",
+          "name": "Rep. of Korea",
+          "value": 8034250.407,
+          "share": 4.105953748573582,
+          "quantity": 565651300.0,
+          "quantityUnit": "u",
+          "netWeightKg": 42577.078,
+          "quantityEstimated": false,
+          "netWeightEstimated": true
+        },
+        {
+          "code": 276,
+          "iso": "DEU",
+          "name": "Germany",
+          "value": 4786800.78,
+          "share": 2.446324375101836,
+          "quantity": 139087620.0,
+          "quantityUnit": "u",
+          "netWeightKg": 25367.393,
+          "quantityEstimated": false,
+          "netWeightEstimated": true
+        },
+        {
+          "code": 458,
+          "iso": "MYS",
+          "name": "Malaysia",
+          "value": 3870677.857,
+          "share": 1.9781340450408378,
+          "quantity": 104925150.0,
+          "quantityUnit": "u",
+          "netWeightKg": 20512.449,
+          "quantityEstimated": false,
+          "netWeightEstimated": true
+        },
+        {
+          "code": 36,
+          "iso": "AUS",
+          "name": "Australia",
+          "value": 2532920.993,
+          "share": 1.294465061356292,
+          "quantity": 9723851.0,
+          "quantityUnit": "u",
+          "netWeightKg": 13423.079,
+          "quantityEstimated": false,
+          "netWeightEstimated": true
+        }
+      ],
+      "destinations": [
+        {
+          "code": 842,
+          "iso": "USA",
+          "name": "USA",
+          "value": 919859.115,
+          "share": 19.87478473421497,
+          "quantity": 3032606.0,
+          "quantityUnit": "u",
+          "netWeightKg": 0.0,
+          "quantityEstimated": false,
+          "netWeightEstimated": true
+        },
+        {
+          "code": 156,
+          "iso": "CHN",
+          "name": "China",
+          "value": 629408.348,
+          "share": 13.59920799003863,
+          "quantity": 4890965.0,
+          "quantityUnit": "u",
+          "netWeightKg": 0.0,
+          "quantityEstimated": false,
+          "netWeightEstimated": true
+        },
+        {
+          "code": 276,
+          "iso": "DEU",
+          "name": "Germany",
+          "value": 612624.447,
+          "share": 13.236569392523212,
+          "quantity": 1340872.0,
+          "quantityUnit": "u",
+          "netWeightKg": 0.0,
+          "quantityEstimated": false,
+          "netWeightEstimated": true
+        },
+        {
+          "code": 344,
+          "iso": "HKG",
+          "name": "China, Hong Kong SAR",
+          "value": 414600.541,
+          "share": 8.957998424643614,
+          "quantity": 31825899.0,
+          "quantityUnit": "u",
+          "netWeightKg": 0.0,
+          "quantityEstimated": false,
+          "netWeightEstimated": true
+        },
+        {
+          "code": 528,
+          "iso": "NLD",
+          "name": "Netherlands",
+          "value": 322144.514,
+          "share": 6.960362477963053,
+          "quantity": 15572.0,
+          "quantityUnit": "u",
+          "netWeightKg": 0.0,
+          "quantityEstimated": false,
+          "netWeightEstimated": true
+        },
+        {
+          "code": 894,
+          "iso": "ZMB",
+          "name": "Zambia",
+          "value": 248313.489,
+          "share": 5.3651445748590065,
+          "quantity": 2685.0,
+          "quantityUnit": "u",
+          "netWeightKg": 0.0,
+          "quantityEstimated": false,
+          "netWeightEstimated": true
+        },
+        {
+          "code": 704,
+          "iso": "VNM",
+          "name": "Viet Nam",
+          "value": 245716.276,
+          "share": 5.309028319182283,
+          "quantity": 7656044.0,
+          "quantityUnit": "u",
+          "netWeightKg": 0.0,
+          "quantityEstimated": false,
+          "netWeightEstimated": true
+        },
+        {
+          "code": 826,
+          "iso": "GBR",
+          "name": "United Kingdom",
+          "value": 209038.54,
+          "share": 4.516556846484677,
+          "quantity": 719636.0,
+          "quantityUnit": "u",
+          "netWeightKg": 0.0,
+          "quantityEstimated": false,
+          "netWeightEstimated": true
+        },
+        {
+          "code": 410,
+          "iso": "KOR",
+          "name": "Rep. of Korea",
+          "value": 136267.505,
+          "share": 2.9442414430426793,
+          "quantity": 4518056.0,
+          "quantityUnit": "u",
+          "netWeightKg": 0.0,
+          "quantityEstimated": false,
+          "netWeightEstimated": true
+        },
+        {
+          "code": 124,
+          "iso": "CAN",
+          "name": "Canada",
+          "value": 77488.567,
+          "share": 1.6742439829905844,
+          "quantity": 2627.0,
+          "quantityUnit": "u",
+          "netWeightKg": 0.0,
+          "quantityEstimated": false,
+          "netWeightEstimated": true
+        }
+      ]
+    },
+    "2021": {
+      "global": {
+        "available": true,
+        "reportedWorldExports": 12931683019.793999,
+        "reportedWorldImports": 15571293413.557999,
+        "worldExportGrowthYoY": 22.529254999421553,
+        "indiaExportRank": 32,
+        "indiaImportRank": 13,
+        "indiaExportShare": 0.05240391638603552,
+        "indiaImportShare": 1.7731517488816704,
+        "leader": "China, Hong Kong SAR",
+        "leaderShare": 26.234992505569814,
+        "reporterCount": 103,
+        "coverageNote": "Rankings and shares use the same available country/area reporter universe for the selected year.",
+        "topExporters": [
+          {
+            "code": 344,
+            "iso": "HKG",
+            "name": "China, Hong Kong SAR",
+            "value": 3392626071.087,
+            "share": 26.234992505569814,
+            "rank": 1
+          },
+          {
+            "code": 156,
+            "iso": "CHN",
+            "name": "China",
+            "value": 3312690831.0,
+            "share": 25.616857650542467,
+            "rank": 2
+          },
+          {
+            "code": 276,
+            "iso": "DEU",
+            "name": "Germany",
+            "value": 1241674417.73,
+            "share": 9.601800599577176,
+            "rank": 3
+          },
+          {
+            "code": 702,
+            "iso": "SGP",
+            "name": "Singapore",
+            "value": 1035691983.794,
+            "share": 8.00894966423712,
+            "rank": 4
+          },
+          {
+            "code": 842,
+            "iso": "USA",
+            "name": "USA",
+            "value": 719012997.0,
+            "share": 5.560088318739612,
+            "rank": 5
+          },
+          {
+            "code": 392,
+            "iso": "JPN",
+            "name": "Japan",
+            "value": 717007814.275,
+            "share": 5.544582350012024,
+            "rank": 6
+          },
+          {
+            "code": 458,
+            "iso": "MYS",
+            "name": "Malaysia",
+            "value": 423759020.083,
+            "share": 3.276905406932488,
+            "rank": 7
+          },
+          {
+            "code": 528,
+            "iso": "NLD",
+            "name": "Netherlands",
+            "value": 348524232.666,
+            "share": 2.695118896222002,
+            "rank": 8
+          },
+          {
+            "code": 410,
+            "iso": "KOR",
+            "name": "Rep. of Korea",
+            "value": 309125255.0,
+            "share": 2.39044874922185,
+            "rank": 9
+          },
+          {
+            "code": 251,
+            "iso": "FRA",
+            "name": "France",
+            "value": 270738405.232,
+            "share": 2.093605332094761,
+            "rank": 10
+          }
+        ],
+        "topImporters": [
+          {
+            "code": 156,
+            "iso": "CHN",
+            "name": "China",
+            "value": 4390689529.0,
+            "share": 28.197333467347075,
+            "rank": 1
+          },
+          {
+            "code": 344,
+            "iso": "HKG",
+            "name": "China, Hong Kong SAR",
+            "value": 2986358111.683,
+            "share": 19.17861305652852,
+            "rank": 2
+          },
+          {
+            "code": 276,
+            "iso": "DEU",
+            "name": "Germany",
+            "value": 1208041517.689,
+            "share": 7.758132132024128,
+            "rank": 3
+          },
+          {
+            "code": 702,
+            "iso": "SGP",
+            "name": "Singapore",
+            "value": 620922139.432,
+            "share": 3.9876079843910737,
+            "rank": 4
+          },
+          {
+            "code": 410,
+            "iso": "KOR",
+            "name": "Rep. of Korea",
+            "value": 599714357.0,
+            "share": 3.851410034299565,
+            "rank": 5
+          },
+          {
+            "code": 458,
+            "iso": "MYS",
+            "name": "Malaysia",
+            "value": 564534185.086,
+            "share": 3.6254803637214708,
+            "rank": 6
+          },
+          {
+            "code": 842,
+            "iso": "USA",
+            "name": "USA",
+            "value": 552602128.0,
+            "share": 3.548851809052976,
+            "rank": 7
+          },
+          {
+            "code": 392,
+            "iso": "JPN",
+            "name": "Japan",
+            "value": 504090684.859,
+            "share": 3.2373077269232233,
+            "rank": 8
+          },
+          {
+            "code": 484,
+            "iso": "MEX",
+            "name": "Mexico",
+            "value": 492919203.0,
+            "share": 3.1655636427145666,
+            "rank": 9
+          },
+          {
+            "code": 608,
+            "iso": "PHL",
+            "name": "Philippines",
+            "value": 447415782.0,
+            "share": 2.873337301642733,
+            "rank": 10
+          }
+        ]
+      },
+      "india": {
+        "reporterCode": 699,
+        "imports": 276102661.486,
+        "exports": 6776708.357,
+        "tradeBalance": -269325953.129,
+        "importGrowthYoY": 41.10398612070352,
+        "exportGrowthYoY": 46.41983495693318,
+        "importCAGR": 41.10398612070352,
+        "exportCAGR": 46.41983495693318,
+        "largestSupplier": {
+          "code": 156,
+          "iso": "CHN",
+          "name": "China",
+          "value": 91121154.329,
+          "share": 33.00263526565838,
+          "quantity": 10058100000.0,
+          "quantityUnit": "u",
+          "netWeightKg": 388535.306,
+          "quantityEstimated": false,
+          "netWeightEstimated": true
+        },
+        "largestDestination": {
+          "code": 842,
+          "iso": "USA",
+          "name": "USA",
+          "value": 1980313.239,
+          "share": 29.22234711420679,
+          "quantity": 4452360.0,
+          "quantityUnit": "u",
+          "netWeightKg": 8435.224,
+          "quantityEstimated": false,
+          "netWeightEstimated": true
+        },
+        "supplierConcentration": {
+          "largestShare": 33.00263526565838,
+          "top3Share": 69.61572414098087,
+          "hhi": 0.1918362434648622,
+          "level": "Moderate"
+        },
+        "exportMarketConcentration": {
+          "largestShare": 29.22234711420679,
+          "top3Share": 65.25555762529032,
+          "hhi": 0.15985582346874128,
+          "level": "Moderate"
+        }
+      },
+      "suppliers": [
+        {
+          "code": 156,
+          "iso": "CHN",
+          "name": "China",
+          "value": 91121154.329,
+          "share": 33.00263526565838,
+          "quantity": 10058100000.0,
+          "quantityUnit": "u",
+          "netWeightKg": 388535.306,
+          "quantityEstimated": false,
+          "netWeightEstimated": true
+        },
+        {
+          "code": 702,
+          "iso": "SGP",
+          "name": "Singapore",
+          "value": 60261772.093,
+          "share": 21.8258570086459,
+          "quantity": 1543660000.0,
+          "quantityUnit": "u",
+          "netWeightKg": 256952.694,
+          "quantityEstimated": false,
+          "netWeightEstimated": true
+        },
+        {
+          "code": 344,
+          "iso": "HKG",
+          "name": "China, Hong Kong SAR",
+          "value": 40827940.744,
+          "share": 14.787231866676597,
+          "quantity": 2573050000.0,
+          "quantityUnit": "u",
+          "netWeightKg": 174087.966,
+          "quantityEstimated": false,
+          "netWeightEstimated": true
+        },
+        {
+          "code": 392,
+          "iso": "JPN",
+          "name": "Japan",
+          "value": 21802558.351,
+          "share": 7.896540451170376,
+          "quantity": 445003000.0,
+          "quantityUnit": "u",
+          "netWeightKg": 92964.842,
+          "quantityEstimated": false,
+          "netWeightEstimated": true
+        },
+        {
+          "code": 490,
+          "iso": "S19",
+          "name": "Other Asia, nes",
+          "value": 16160491.826,
+          "share": 5.853073541205045,
+          "quantity": 230718000.0,
+          "quantityUnit": "u",
+          "netWeightKg": 68907.398,
+          "quantityEstimated": false,
+          "netWeightEstimated": true
+        },
+        {
+          "code": 842,
+          "iso": "USA",
+          "name": "USA",
+          "value": 11165354.582,
+          "share": 4.043914144799414,
+          "quantity": 135320000.0,
+          "quantityUnit": "u",
+          "netWeightKg": 47608.423,
+          "quantityEstimated": false,
+          "netWeightEstimated": true
+        },
+        {
+          "code": 410,
+          "iso": "KOR",
+          "name": "Rep. of Korea",
+          "value": 7851187.656,
+          "share": 2.8435755069308164,
+          "quantity": 482360000.0,
+          "quantityUnit": "u",
+          "netWeightKg": 33477.008,
+          "quantityEstimated": false,
+          "netWeightEstimated": true
+        },
+        {
+          "code": 276,
+          "iso": "DEU",
+          "name": "Germany",
+          "value": 6658984.886,
+          "share": 2.411778593571308,
+          "quantity": 218647000.0,
+          "quantityUnit": "u",
+          "netWeightKg": 28393.525,
+          "quantityEstimated": false,
+          "netWeightEstimated": true
+        },
+        {
+          "code": 458,
+          "iso": "MYS",
+          "name": "Malaysia",
+          "value": 5137411.369,
+          "share": 1.860688825435497,
+          "quantity": 135502000.0,
+          "quantityUnit": "u",
+          "netWeightKg": 21905.623,
+          "quantityEstimated": false,
+          "netWeightEstimated": true
+        },
+        {
+          "code": 36,
+          "iso": "AUS",
+          "name": "Australia",
+          "value": 3354516.269,
+          "share": 1.214952529231629,
+          "quantity": 10970100.0,
+          "quantityUnit": "u",
+          "netWeightKg": 14303.462,
+          "quantityEstimated": false,
+          "netWeightEstimated": true
+        }
+      ],
+      "destinations": [
+        {
+          "code": 842,
+          "iso": "USA",
+          "name": "USA",
+          "value": 1980313.239,
+          "share": 29.22234711420679,
+          "quantity": 4452360.0,
+          "quantityUnit": "u",
+          "netWeightKg": 8435.224,
+          "quantityEstimated": false,
+          "netWeightEstimated": true
+        },
+        {
+          "code": 528,
+          "iso": "NLD",
+          "name": "Netherlands",
+          "value": 1307126.789,
+          "share": 19.288520622992483,
+          "quantity": 398985.0,
+          "quantityUnit": "u",
+          "netWeightKg": 5567.759,
+          "quantityEstimated": false,
+          "netWeightEstimated": true
+        },
+        {
+          "code": 276,
+          "iso": "DEU",
+          "name": "Germany",
+          "value": 1134738.799,
+          "share": 16.74468988809105,
+          "quantity": 16271800.0,
+          "quantityUnit": "u",
+          "netWeightKg": 4833.466,
+          "quantityEstimated": false,
+          "netWeightEstimated": true
+        },
+        {
+          "code": 344,
+          "iso": "HKG",
+          "name": "China, Hong Kong SAR",
+          "value": 478227.938,
+          "share": 7.056935503296591,
+          "quantity": 19436300.0,
+          "quantityUnit": "u",
+          "netWeightKg": 2037.031,
+          "quantityEstimated": false,
+          "netWeightEstimated": true
+        },
+        {
+          "code": 156,
+          "iso": "CHN",
+          "name": "China",
+          "value": 239017.13,
+          "share": 3.5270387540450567,
+          "quantity": 7398520.0,
+          "quantityUnit": "u",
+          "netWeightKg": 1018.103,
+          "quantityEstimated": false,
+          "netWeightEstimated": true
+        },
+        {
+          "code": 410,
+          "iso": "KOR",
+          "name": "Rep. of Korea",
+          "value": 181507.55,
+          "share": 2.678402853392854,
+          "quantity": 3412920.0,
+          "quantityUnit": "u",
+          "netWeightKg": 773.139,
+          "quantityEstimated": false,
+          "netWeightEstimated": true
+        },
+        {
+          "code": 490,
+          "iso": "S19",
+          "name": "Other Asia, nes",
+          "value": 144120.458,
+          "share": 2.1267029715264463,
+          "quantity": 552998.0,
+          "quantityUnit": "u",
+          "netWeightKg": 613.887,
+          "quantityEstimated": false,
+          "netWeightEstimated": true
+        },
+        {
+          "code": 704,
+          "iso": "VNM",
+          "name": "Viet Nam",
+          "value": 130412.99,
+          "share": 1.9244297250196687,
+          "quantity": 9504960.0,
+          "quantityUnit": "u",
+          "netWeightKg": 555.499,
+          "quantityEstimated": false,
+          "netWeightEstimated": true
+        },
+        {
+          "code": 826,
+          "iso": "GBR",
+          "name": "United Kingdom",
+          "value": 119124.746,
+          "share": 1.7578555800907398,
+          "quantity": 1221000.0,
+          "quantityUnit": "u",
+          "netWeightKg": 507.417,
+          "quantityEstimated": false,
+          "netWeightEstimated": true
+        },
+        {
+          "code": 702,
+          "iso": "SGP",
+          "name": "Singapore",
+          "value": 94052.288,
+          "share": 1.387875691933071,
+          "quantity": 2540740.0,
+          "quantityUnit": "u",
+          "netWeightKg": 400.62,
+          "quantityEstimated": false,
+          "netWeightEstimated": true
+        }
+      ]
+    },
+    "2022": {
+      "global": {
+        "available": true,
+        "reportedWorldExports": 13262773923.078,
+        "reportedWorldImports": 16425226861.798,
+        "worldExportGrowthYoY": 2.5603079102481274,
+        "indiaExportRank": 30,
+        "indiaImportRank": 13,
+        "indiaExportShare": 0.06437901354966635,
+        "indiaImportShare": 2.303133320921387,
+        "leader": "China, Hong Kong SAR",
+        "leaderShare": 25.68803601594019,
+        "reporterCount": 111,
+        "coverageNote": "Rankings and shares use the same available country/area reporter universe for the selected year.",
+        "topExporters": [
+          {
+            "code": 344,
+            "iso": "HKG",
+            "name": "China, Hong Kong SAR",
+            "value": 3406946142.073,
+            "share": 25.68803601594019,
+            "rank": 1
+          },
+          {
+            "code": 156,
+            "iso": "CHN",
+            "name": "China",
+            "value": 3233320700.0,
+            "share": 24.37891740259429,
+            "rank": 2
+          },
+          {
+            "code": 276,
+            "iso": "DEU",
+            "name": "Germany",
+            "value": 1357590234.645,
+            "share": 10.236095725666514,
+            "rank": 3
+          },
+          {
+            "code": 702,
+            "iso": "SGP",
+            "name": "Singapore",
+            "value": 1082945688.346,
+            "share": 8.165303085364453,
+            "rank": 4
+          },
+          {
+            "code": 842,
+            "iso": "USA",
+            "name": "USA",
+            "value": 955548342.0,
+            "share": 7.204739728973969,
+            "rank": 5
+          },
+          {
+            "code": 392,
+            "iso": "JPN",
+            "name": "Japan",
+            "value": 687085706.416,
+            "share": 5.180558082351316,
+            "rank": 6
+          },
+          {
+            "code": 458,
+            "iso": "MYS",
+            "name": "Malaysia",
+            "value": 443733424.035,
+            "share": 3.345706008475934,
+            "rank": 7
+          },
+          {
+            "code": 410,
+            "iso": "KOR",
+            "name": "Rep. of Korea",
+            "value": 285839044.0,
+            "share": 2.155198042715811,
+            "rank": 8
+          },
+          {
+            "code": 528,
+            "iso": "NLD",
+            "name": "Netherlands",
+            "value": 259449918.221,
+            "share": 1.9562266515720517,
+            "rank": 9
+          },
+          {
+            "code": 251,
+            "iso": "FRA",
+            "name": "France",
+            "value": 243963913.346,
+            "share": 1.839463710690933,
+            "rank": 10
+          }
+        ],
+        "topImporters": [
+          {
+            "code": 156,
+            "iso": "CHN",
+            "name": "China",
+            "value": 4058405119.0,
+            "share": 24.708365693499733,
+            "rank": 1
+          },
+          {
+            "code": 344,
+            "iso": "HKG",
+            "name": "China, Hong Kong SAR",
+            "value": 3077310311.44,
+            "share": 18.735268239108752,
+            "rank": 2
+          },
+          {
+            "code": 276,
+            "iso": "DEU",
+            "name": "Germany",
+            "value": 1371486943.76,
+            "share": 8.349881285048316,
+            "rank": 3
+          },
+          {
+            "code": 842,
+            "iso": "USA",
+            "name": "USA",
+            "value": 781405355.0,
+            "share": 4.757348933897543,
+            "rank": 4
+          },
+          {
+            "code": 702,
+            "iso": "SGP",
+            "name": "Singapore",
+            "value": 728619135.787,
+            "share": 4.435976086769502,
+            "rank": 5
+          },
+          {
+            "code": 458,
+            "iso": "MYS",
+            "name": "Malaysia",
+            "value": 623167703.59,
+            "share": 3.7939671021492636,
+            "rank": 6
+          },
+          {
+            "code": 484,
+            "iso": "MEX",
+            "name": "Mexico",
+            "value": 612460649.0,
+            "share": 3.7287804555349475,
+            "rank": 7
+          },
+          {
+            "code": 410,
+            "iso": "KOR",
+            "name": "Rep. of Korea",
+            "value": 567493452.0,
+            "share": 3.455011347939939,
+            "rank": 8
+          },
+          {
+            "code": 392,
+            "iso": "JPN",
+            "name": "Japan",
+            "value": 561809764.519,
+            "share": 3.420407944718647,
+            "rank": 9
+          },
+          {
+            "code": 608,
+            "iso": "PHL",
+            "name": "Philippines",
+            "value": 431275481.0,
+            "share": 2.6256896457428294,
+            "rank": 10
+          }
+        ]
+      },
+      "india": {
+        "reporterCode": 699,
+        "imports": 378294872.891,
+        "exports": 8538443.021,
+        "tradeBalance": -369756429.86999995,
+        "importGrowthYoY": 37.01239635105136,
+        "exportGrowthYoY": 25.996908398458917,
+        "importCAGR": 39.04314176931949,
+        "exportCAGR": 35.825058559848145,
+        "largestSupplier": {
+          "code": 156,
+          "iso": "CHN",
+          "name": "China",
+          "value": 139304876.684,
+          "share": 36.824415731412415,
+          "quantity": 13225039000.0,
+          "quantityUnit": "u",
+          "netWeightKg": null,
+          "quantityEstimated": false,
+          "netWeightEstimated": false
+        },
+        "largestDestination": {
+          "code": 276,
+          "iso": "DEU",
+          "name": "Germany",
+          "value": 1744916.596,
+          "share": 20.43600445313553,
+          "quantity": 9017203.0,
+          "quantityUnit": "u",
+          "netWeightKg": 6256.599,
+          "quantityEstimated": false,
+          "netWeightEstimated": true
+        },
+        "supplierConcentration": {
+          "largestShare": 36.824415731412415,
+          "top3Share": 70.89229765645611,
+          "hhi": 0.21177399543904524,
+          "level": "Moderate"
+        },
+        "exportMarketConcentration": {
+          "largestShare": 20.43600445313553,
+          "top3Share": 54.48926416159544,
+          "hhi": 0.11737697618378576,
+          "level": "Low"
+        }
+      },
+      "suppliers": [
+        {
+          "code": 156,
+          "iso": "CHN",
+          "name": "China",
+          "value": 139304876.684,
+          "share": 36.824415731412415,
+          "quantity": 13225039000.0,
+          "quantityUnit": "u",
+          "netWeightKg": null,
+          "quantityEstimated": false,
+          "netWeightEstimated": false
+        },
+        {
+          "code": 702,
+          "iso": "SGP",
+          "name": "Singapore",
+          "value": 83513461.21,
+          "share": 22.076286831955862,
+          "quantity": 1814421000.0,
+          "quantityUnit": "u",
+          "netWeightKg": null,
+          "quantityEstimated": false,
+          "netWeightEstimated": false
+        },
+        {
+          "code": 344,
+          "iso": "HKG",
+          "name": "China, Hong Kong SAR",
+          "value": 45363589.415,
+          "share": 11.991595093087831,
+          "quantity": 2615928000.0,
+          "quantityUnit": "u",
+          "netWeightKg": null,
+          "quantityEstimated": false,
+          "netWeightEstimated": false
+        },
+        {
+          "code": 392,
+          "iso": "JPN",
+          "name": "Japan",
+          "value": 27235295.766,
+          "share": 7.19948847254069,
+          "quantity": 494106100.0,
+          "quantityUnit": "u",
+          "netWeightKg": null,
+          "quantityEstimated": false,
+          "netWeightEstimated": false
+        },
+        {
+          "code": 490,
+          "iso": "S19",
+          "name": "Other Asia, nes",
+          "value": 24351577.799,
+          "share": 6.437194776894728,
+          "quantity": 468659800.0,
+          "quantityUnit": "u",
+          "netWeightKg": null,
+          "quantityEstimated": false,
+          "netWeightEstimated": false
+        },
+        {
+          "code": 842,
+          "iso": "USA",
+          "name": "USA",
+          "value": 16034574.45,
+          "share": 4.23864440124731,
+          "quantity": 116858960.0,
+          "quantityUnit": "u",
+          "netWeightKg": null,
+          "quantityEstimated": false,
+          "netWeightEstimated": false
+        },
+        {
+          "code": 410,
+          "iso": "KOR",
+          "name": "Rep. of Korea",
+          "value": 10765414.994,
+          "share": 2.845773433757823,
+          "quantity": 517772100.0,
+          "quantityUnit": "u",
+          "netWeightKg": null,
+          "quantityEstimated": false,
+          "netWeightEstimated": false
+        },
+        {
+          "code": 276,
+          "iso": "DEU",
+          "name": "Germany",
+          "value": 8951920.664,
+          "share": 2.3663869921333465,
+          "quantity": 315285100.0,
+          "quantityUnit": "u",
+          "netWeightKg": null,
+          "quantityEstimated": false,
+          "netWeightEstimated": false
+        },
+        {
+          "code": 458,
+          "iso": "MYS",
+          "name": "Malaysia",
+          "value": 7697922.535,
+          "share": 2.034900044024134,
+          "quantity": 175206200.0,
+          "quantityUnit": "u",
+          "netWeightKg": null,
+          "quantityEstimated": false,
+          "netWeightEstimated": false
+        },
+        {
+          "code": 826,
+          "iso": "GBR",
+          "name": "United Kingdom",
+          "value": 2608205.606,
+          "share": 0.6894636414360064,
+          "quantity": 13875656.0,
+          "quantityUnit": "u",
+          "netWeightKg": null,
+          "quantityEstimated": false,
+          "netWeightEstimated": false
+        }
+      ],
+      "destinations": [
+        {
+          "code": 276,
+          "iso": "DEU",
+          "name": "Germany",
+          "value": 1744916.596,
+          "share": 20.43600445313553,
+          "quantity": 9017203.0,
+          "quantityUnit": "u",
+          "netWeightKg": 6256.599,
+          "quantityEstimated": false,
+          "netWeightEstimated": true
+        },
+        {
+          "code": 842,
+          "iso": "USA",
+          "name": "USA",
+          "value": 1607308.495,
+          "share": 18.82437454986678,
+          "quantity": 8454362.0,
+          "quantityUnit": "u",
+          "netWeightKg": 5763.19,
+          "quantityEstimated": false,
+          "netWeightEstimated": true
+        },
+        {
+          "code": 344,
+          "iso": "HKG",
+          "name": "China, Hong Kong SAR",
+          "value": 1300309.682,
+          "share": 15.228885158593133,
+          "quantity": 29885116.0,
+          "quantityUnit": "u",
+          "netWeightKg": 4662.41,
+          "quantityEstimated": false,
+          "netWeightEstimated": true
+        },
+        {
+          "code": 156,
+          "iso": "CHN",
+          "name": "China",
+          "value": 702021.513,
+          "share": 8.221891406587863,
+          "quantity": 6102740.0,
+          "quantityUnit": "u",
+          "netWeightKg": 2517.179,
+          "quantityEstimated": false,
+          "netWeightEstimated": true
+        },
+        {
+          "code": 528,
+          "iso": "NLD",
+          "name": "Netherlands",
+          "value": 658169.184,
+          "share": 7.708304457630695,
+          "quantity": 80317.0,
+          "quantityUnit": "u",
+          "netWeightKg": 2359.941,
+          "quantityEstimated": false,
+          "netWeightEstimated": true
+        },
+        {
+          "code": 702,
+          "iso": "SGP",
+          "name": "Singapore",
+          "value": 249262.832,
+          "share": 2.919300759950577,
+          "quantity": 2700266.0,
+          "quantityUnit": "u",
+          "netWeightKg": 893.761,
+          "quantityEstimated": false,
+          "netWeightEstimated": true
+        },
+        {
+          "code": 348,
+          "iso": "HUN",
+          "name": "Hungary",
+          "value": 222267.59,
+          "share": 2.6031395823962367,
+          "quantity": 924871.0,
+          "quantityUnit": "u",
+          "netWeightKg": 796.966,
+          "quantityEstimated": false,
+          "netWeightEstimated": true
+        },
+        {
+          "code": 704,
+          "iso": "VNM",
+          "name": "Viet Nam",
+          "value": 200633.616,
+          "share": 2.3497681662400125,
+          "quantity": 11257004.0,
+          "quantityUnit": "u",
+          "netWeightKg": 719.395,
+          "quantityEstimated": false,
+          "netWeightEstimated": true
+        },
+        {
+          "code": 124,
+          "iso": "CAN",
+          "name": "Canada",
+          "value": 169243.912,
+          "share": 1.9821402049969832,
+          "quantity": 5949.0,
+          "quantityUnit": "u",
+          "netWeightKg": 606.844,
+          "quantityEstimated": false,
+          "netWeightEstimated": true
+        },
+        {
+          "code": 490,
+          "iso": "S19",
+          "name": "Other Asia, nes",
+          "value": 136226.032,
+          "share": 1.595443474471363,
+          "quantity": 45699.0,
+          "quantityUnit": "u",
+          "netWeightKg": 488.454,
+          "quantityEstimated": false,
+          "netWeightEstimated": true
+        }
+      ]
+    },
+    "2023": {
+      "global": {
+        "available": true,
+        "reportedWorldExports": 11422866959.289,
+        "reportedWorldImports": 13809090599.922998,
+        "worldExportGrowthYoY": -13.872716028035835,
+        "indiaExportRank": 25,
+        "indiaImportRank": 11,
+        "indiaExportShare": 0.17208670597371237,
+        "indiaImportShare": 2.872383466998267,
+        "leader": "China, Hong Kong SAR",
+        "leaderShare": 24.451459071469834,
+        "reporterCount": 108,
+        "coverageNote": "Rankings and shares use the same available country/area reporter universe for the selected year.",
+        "topExporters": [
+          {
+            "code": 344,
+            "iso": "HKG",
+            "name": "China, Hong Kong SAR",
+            "value": 2793057639.339,
+            "share": 24.451459071469834,
+            "rank": 1
+          },
+          {
+            "code": 156,
+            "iso": "CHN",
+            "name": "China",
+            "value": 2583665960.0,
+            "share": 22.618366905682816,
+            "rank": 2
+          },
+          {
+            "code": 276,
+            "iso": "DEU",
+            "name": "Germany",
+            "value": 1384356107.467,
+            "share": 12.119165113284023,
+            "rank": 3
+          },
+          {
+            "code": 702,
+            "iso": "SGP",
+            "name": "Singapore",
+            "value": 952886851.36,
+            "share": 8.341923746079514,
+            "rank": 4
+          },
+          {
+            "code": 842,
+            "iso": "USA",
+            "name": "USA",
+            "value": 806944405.0,
+            "share": 7.064289620775091,
+            "rank": 5
+          },
+          {
+            "code": 392,
+            "iso": "JPN",
+            "name": "Japan",
+            "value": 559436149.103,
+            "share": 4.897510853420824,
+            "rank": 6
+          },
+          {
+            "code": 458,
+            "iso": "MYS",
+            "name": "Malaysia",
+            "value": 499476364.358,
+            "share": 4.372600732706855,
+            "rank": 7
+          },
+          {
+            "code": 410,
+            "iso": "KOR",
+            "name": "Rep. of Korea",
+            "value": 287316428.0,
+            "share": 2.5152742216467483,
+            "rank": 8
+          },
+          {
+            "code": 40,
+            "iso": "AUT",
+            "name": "Austria",
+            "value": 168915492.955,
+            "share": 1.47874866753691,
+            "rank": 9
+          },
+          {
+            "code": 608,
+            "iso": "PHL",
+            "name": "Philippines",
+            "value": 158319966.0,
+            "share": 1.3859915077734077,
+            "rank": 10
+          }
+        ],
+        "topImporters": [
+          {
+            "code": 156,
+            "iso": "CHN",
+            "name": "China",
+            "value": 3236289927.0,
+            "share": 23.43593811324582,
+            "rank": 1
+          },
+          {
+            "code": 344,
+            "iso": "HKG",
+            "name": "China, Hong Kong SAR",
+            "value": 2482728381.644,
+            "share": 17.978941941751355,
+            "rank": 2
+          },
+          {
+            "code": 276,
+            "iso": "DEU",
+            "name": "Germany",
+            "value": 1302663996.955,
+            "share": 9.433380044318513,
+            "rank": 3
+          },
+          {
+            "code": 484,
+            "iso": "MEX",
+            "name": "Mexico",
+            "value": 613507851.0,
+            "share": 4.4427824306071315,
+            "rank": 4
+          },
+          {
+            "code": 702,
+            "iso": "SGP",
+            "name": "Singapore",
+            "value": 601704675.033,
+            "share": 4.357308475015402,
+            "rank": 5
+          },
+          {
+            "code": 842,
+            "iso": "USA",
+            "name": "USA",
+            "value": 548481363.0,
+            "share": 3.971886193599587,
+            "rank": 6
+          },
+          {
+            "code": 410,
+            "iso": "KOR",
+            "name": "Rep. of Korea",
+            "value": 508685674.0,
+            "share": 3.6837014741784406,
+            "rank": 7
+          },
+          {
+            "code": 392,
+            "iso": "JPN",
+            "name": "Japan",
+            "value": 489346605.397,
+            "share": 3.5436555496256115,
+            "rank": 8
+          },
+          {
+            "code": 458,
+            "iso": "MYS",
+            "name": "Malaysia",
+            "value": 422596605.315,
+            "share": 3.0602783163531164,
+            "rank": 9
+          },
+          {
+            "code": 704,
+            "iso": "VNM",
+            "name": "Viet Nam",
+            "value": 408111729.467,
+            "share": 2.9553845455201495,
+            "rank": 10
+          }
+        ]
+      },
+      "india": {
+        "reporterCode": 699,
+        "imports": 396650035.335,
+        "exports": 19657235.478,
+        "tradeBalance": -376992799.857,
+        "importGrowthYoY": 4.852078037359164,
+        "exportGrowthYoY": 130.22037424918946,
+        "importCAGR": 26.55871664892009,
+        "exportCAGR": 61.945115089871926,
+        "largestSupplier": {
+          "code": 156,
+          "iso": "CHN",
+          "name": "China",
+          "value": 217027767.108,
+          "share": 54.71517654718073,
+          "quantity": 17592976761.0,
+          "quantityUnit": "u",
+          "netWeightKg": 776282.417,
+          "quantityEstimated": false,
+          "netWeightEstimated": true
+        },
+        "largestDestination": {
+          "code": 842,
+          "iso": "USA",
+          "name": "USA",
+          "value": 11282361.24,
+          "share": 57.39546261541712,
+          "quantity": 9404150.0,
+          "quantityUnit": "u",
+          "netWeightKg": 40964.023,
+          "quantityEstimated": false,
+          "netWeightEstimated": true
+        },
+        "supplierConcentration": {
+          "largestShare": 54.71517654718073,
+          "top3Share": 72.52970145307702,
+          "hhi": 0.32491632489634037,
+          "level": "High"
+        },
+        "exportMarketConcentration": {
+          "largestShare": 57.39546261541712,
+          "top3Share": 73.42679350895447,
+          "hhi": 0.3475217381789917,
+          "level": "High"
+        }
+      },
+      "suppliers": [
+        {
+          "code": 156,
+          "iso": "CHN",
+          "name": "China",
+          "value": 217027767.108,
+          "share": 54.71517654718073,
+          "quantity": 17592976761.0,
+          "quantityUnit": "u",
+          "netWeightKg": 776282.417,
+          "quantityEstimated": false,
+          "netWeightEstimated": true
+        },
+        {
+          "code": 392,
+          "iso": "JPN",
+          "name": "Japan",
+          "value": 45887986.916,
+          "share": 11.568885119912881,
+          "quantity": 999651489.0,
+          "quantityUnit": "u",
+          "netWeightKg": 164135.852,
+          "quantityEstimated": false,
+          "netWeightEstimated": true
+        },
+        {
+          "code": 490,
+          "iso": "S19",
+          "name": "Other Asia, nes",
+          "value": 24773332.418,
+          "share": 6.245639785983407,
+          "quantity": 332595720.0,
+          "quantityUnit": "u",
+          "netWeightKg": 88611.253,
+          "quantityEstimated": false,
+          "netWeightEstimated": true
+        },
+        {
+          "code": 702,
+          "iso": "SGP",
+          "name": "Singapore",
+          "value": 18483152.897,
+          "share": 4.659813752793347,
+          "quantity": 300797123.0,
+          "quantityUnit": "u",
+          "netWeightKg": 66112.032,
+          "quantityEstimated": false,
+          "netWeightEstimated": true
+        },
+        {
+          "code": 458,
+          "iso": "MYS",
+          "name": "Malaysia",
+          "value": 17943275.82,
+          "share": 4.523704581255259,
+          "quantity": 463602677.0,
+          "quantityUnit": "u",
+          "netWeightKg": 64180.956,
+          "quantityEstimated": false,
+          "netWeightEstimated": true
+        },
+        {
+          "code": 344,
+          "iso": "HKG",
+          "name": "China, Hong Kong SAR",
+          "value": 13916575.858,
+          "share": 3.5085275729892307,
+          "quantity": 471094222.0,
+          "quantityUnit": "u",
+          "netWeightKg": 49777.931,
+          "quantityEstimated": false,
+          "netWeightEstimated": true
+        },
+        {
+          "code": 842,
+          "iso": "USA",
+          "name": "USA",
+          "value": 12838772.964,
+          "share": 3.236801164824482,
+          "quantity": 26067855.0,
+          "quantityUnit": "u",
+          "netWeightKg": 45922.758,
+          "quantityEstimated": false,
+          "netWeightEstimated": true
+        },
+        {
+          "code": 410,
+          "iso": "KOR",
+          "name": "Rep. of Korea",
+          "value": 12180355.733,
+          "share": 3.070806667825656,
+          "quantity": 377513890.0,
+          "quantityUnit": "u",
+          "netWeightKg": 43567.679,
+          "quantityEstimated": false,
+          "netWeightEstimated": true
+        },
+        {
+          "code": 764,
+          "iso": "THA",
+          "name": "Thailand",
+          "value": 7092157.835,
+          "share": 1.788013917359204,
+          "quantity": 325131031.0,
+          "quantityUnit": "u",
+          "netWeightKg": 25367.802,
+          "quantityEstimated": false,
+          "netWeightEstimated": true
+        },
+        {
+          "code": 608,
+          "iso": "PHL",
+          "name": "Philippines",
+          "value": 5916434.778,
+          "share": 1.491600718755297,
+          "quantity": 128258724.0,
+          "quantityUnit": "u",
+          "netWeightKg": 21162.381,
+          "quantityEstimated": false,
+          "netWeightEstimated": true
+        }
+      ],
+      "destinations": [
+        {
+          "code": 842,
+          "iso": "USA",
+          "name": "USA",
+          "value": 11282361.24,
+          "share": 57.39546261541712,
+          "quantity": 9404150.0,
+          "quantityUnit": "u",
+          "netWeightKg": 40964.023,
+          "quantityEstimated": false,
+          "netWeightEstimated": true
+        },
+        {
+          "code": 156,
+          "iso": "CHN",
+          "name": "China",
+          "value": 1803728.685,
+          "share": 9.175902110033217,
+          "quantity": 13898400.0,
+          "quantityUnit": "u",
+          "netWeightKg": 6548.982,
+          "quantityEstimated": false,
+          "netWeightEstimated": true
+        },
+        {
+          "code": 704,
+          "iso": "VNM",
+          "name": "Viet Nam",
+          "value": 1347587.779,
+          "share": 6.855428783504143,
+          "quantity": 9032230.0,
+          "quantityUnit": "u",
+          "netWeightKg": 4892.825,
+          "quantityEstimated": false,
+          "netWeightEstimated": true
+        },
+        {
+          "code": 276,
+          "iso": "DEU",
+          "name": "Germany",
+          "value": 943107.769,
+          "share": 4.797764009366974,
+          "quantity": 1602330.0,
+          "quantityUnit": "u",
+          "netWeightKg": 3424.238,
+          "quantityEstimated": false,
+          "netWeightEstimated": true
+        },
+        {
+          "code": 344,
+          "iso": "HKG",
+          "name": "China, Hong Kong SAR",
+          "value": 495578.44,
+          "share": 2.5210993710414766,
+          "quantity": 10694500.0,
+          "quantityUnit": "u",
+          "netWeightKg": 1799.347,
+          "quantityEstimated": false,
+          "netWeightEstimated": true
+        },
+        {
+          "code": 348,
+          "iso": "HUN",
+          "name": "Hungary",
+          "value": 474473.964,
+          "share": 2.4137369902854453,
+          "quantity": 1010670.0,
+          "quantityUnit": "u",
+          "netWeightKg": 1722.721,
+          "quantityEstimated": false,
+          "netWeightEstimated": true
+        },
+        {
+          "code": 484,
+          "iso": "MEX",
+          "name": "Mexico",
+          "value": 389998.879,
+          "share": 1.9839965769168268,
+          "quantity": 1232650.0,
+          "quantityUnit": "u",
+          "netWeightKg": 1416.009,
+          "quantityEstimated": false,
+          "netWeightEstimated": true
+        },
+        {
+          "code": 124,
+          "iso": "CAN",
+          "name": "Canada",
+          "value": 245850.249,
+          "share": 1.250685780689512,
+          "quantity": 6012.0,
+          "quantityUnit": "u",
+          "netWeightKg": 892.634,
+          "quantityEstimated": false,
+          "netWeightEstimated": true
+        },
+        {
+          "code": 490,
+          "iso": "S19",
+          "name": "Other Asia, nes",
+          "value": 234107.656,
+          "share": 1.1909490338150996,
+          "quantity": 1828360.0,
+          "quantityUnit": "u",
+          "netWeightKg": 849.999,
+          "quantityEstimated": false,
+          "netWeightEstimated": true
+        },
+        {
+          "code": 528,
+          "iso": "NLD",
+          "name": "Netherlands",
+          "value": 203178.807,
+          "share": 1.0336082468330494,
+          "quantity": 40670.0,
+          "quantityUnit": "u",
+          "netWeightKg": 737.702,
+          "quantityEstimated": false,
+          "netWeightEstimated": true
+        }
+      ]
+    },
+    "2024": {
+      "global": {
+        "available": true,
+        "reportedWorldExports": 10329640401.409,
+        "reportedWorldImports": 12055761286.951,
+        "worldExportGrowthYoY": -9.570509415685658,
+        "indiaExportRank": 27,
+        "indiaImportRank": 8,
+        "indiaExportShare": 0.11770752695651923,
+        "indiaImportShare": 3.6389450660477656,
+        "leader": "China, Hong Kong SAR",
+        "leaderShare": 25.29421773029586,
+        "reporterCount": 96,
+        "coverageNote": "Rankings and shares use the same available country/area reporter universe for the selected year.",
+        "topExporters": [
+          {
+            "code": 344,
+            "iso": "HKG",
+            "name": "China, Hong Kong SAR",
+            "value": 2612801733.889,
+            "share": 25.29421773029586,
+            "rank": 1
+          },
+          {
+            "code": 156,
+            "iso": "CHN",
+            "name": "China",
+            "value": 2492331815.0,
+            "share": 24.127963008857858,
+            "rank": 2
+          },
+          {
+            "code": 276,
+            "iso": "DEU",
+            "name": "Germany",
+            "value": 1077389758.469,
+            "share": 10.430080008613274,
+            "rank": 3
+          },
+          {
+            "code": 702,
+            "iso": "SGP",
+            "name": "Singapore",
+            "value": 920177947.882,
+            "share": 8.908131475288185,
+            "rank": 4
+          },
+          {
+            "code": 842,
+            "iso": "USA",
+            "name": "USA",
+            "value": 649223149.0,
+            "share": 6.28505082240272,
+            "rank": 5
+          },
+          {
+            "code": 458,
+            "iso": "MYS",
+            "name": "Malaysia",
+            "value": 499450489.084,
+            "share": 4.835119807422077,
+            "rank": 6
+          },
+          {
+            "code": 392,
+            "iso": "JPN",
+            "name": "Japan",
+            "value": 470939186.876,
+            "share": 4.559105337410992,
+            "rank": 7
+          },
+          {
+            "code": 410,
+            "iso": "KOR",
+            "name": "Rep. of Korea",
+            "value": 291793631.0,
+            "share": 2.8248188674622043,
+            "rank": 8
+          },
+          {
+            "code": 764,
+            "iso": "THA",
+            "name": "Thailand",
+            "value": 134674500.169,
+            "share": 1.3037675556511137,
+            "rank": 9
+          },
+          {
+            "code": 608,
+            "iso": "PHL",
+            "name": "Philippines",
+            "value": 132459544.0,
+            "share": 1.2823248327398893,
+            "rank": 10
+          }
+        ],
+        "topImporters": [
+          {
+            "code": 156,
+            "iso": "CHN",
+            "name": "China",
+            "value": 2889259760.0,
+            "share": 23.96580100774969,
+            "rank": 1
+          },
+          {
+            "code": 344,
+            "iso": "HKG",
+            "name": "China, Hong Kong SAR",
+            "value": 2470005818.104,
+            "share": 20.488177887011602,
+            "rank": 2
+          },
+          {
+            "code": 276,
+            "iso": "DEU",
+            "name": "Germany",
+            "value": 972118503.831,
+            "share": 8.06351818597477,
+            "rank": 3
+          },
+          {
+            "code": 702,
+            "iso": "SGP",
+            "name": "Singapore",
+            "value": 574803772.338,
+            "share": 4.7678761934359155,
+            "rank": 4
+          },
+          {
+            "code": 484,
+            "iso": "MEX",
+            "name": "Mexico",
+            "value": 553398902.0,
+            "share": 4.590327303502532,
+            "rank": 5
+          },
+          {
+            "code": 410,
+            "iso": "KOR",
+            "name": "Rep. of Korea",
+            "value": 498336775.0,
+            "share": 4.1335985603778775,
+            "rank": 6
+          },
+          {
+            "code": 842,
+            "iso": "USA",
+            "name": "USA",
+            "value": 491417410.0,
+            "share": 4.076203885456025,
+            "rank": 7
+          },
+          {
+            "code": 699,
+            "iso": "IND",
+            "name": "India",
+            "value": 438702530.526,
+            "share": 3.6389450660477656,
+            "rank": 8
+          },
+          {
+            "code": 458,
+            "iso": "MYS",
+            "name": "Malaysia",
+            "value": 424527543.584,
+            "share": 3.521366535711876,
+            "rank": 9
+          },
+          {
+            "code": 392,
+            "iso": "JPN",
+            "name": "Japan",
+            "value": 419028486.9,
+            "share": 3.475753019044521,
+            "rank": 10
+          }
+        ]
+      },
+      "india": {
+        "reporterCode": 699,
+        "imports": 438702530.526,
+        "exports": 12158764.26,
+        "tradeBalance": -426543766.26600003,
+        "importGrowthYoY": 10.601913890032467,
+        "exportGrowthYoY": -38.146112795932794,
+        "importCAGR": 22.36570233977284,
+        "exportCAGR": 27.31150111223617,
+        "largestSupplier": {
+          "code": 156,
+          "iso": "CHN",
+          "name": "China",
+          "value": 246434579.241,
+          "share": 56.1735030216323,
+          "quantity": 18747968517.0,
+          "quantityUnit": "u",
+          "netWeightKg": 921497.611,
+          "quantityEstimated": false,
+          "netWeightEstimated": true
+        },
+        "largestDestination": {
+          "code": 842,
+          "iso": "USA",
+          "name": "USA",
+          "value": 1891003.633,
+          "share": 15.552597225863149,
+          "quantity": 11475970.0,
+          "quantityUnit": "u",
+          "netWeightKg": null,
+          "quantityEstimated": false,
+          "netWeightEstimated": false
+        },
+        "supplierConcentration": {
+          "largestShare": 56.1735030216323,
+          "top3Share": 75.33466607720261,
+          "hhi": 0.3406080476173876,
+          "level": "High"
+        },
+        "exportMarketConcentration": {
+          "largestShare": 15.552597225863149,
+          "top3Share": 39.76061125639424,
+          "hhi": 0.08602157288253517,
+          "level": "Low"
+        }
+      },
+      "suppliers": [
+        {
+          "code": 156,
+          "iso": "CHN",
+          "name": "China",
+          "value": 246434579.241,
+          "share": 56.1735030216323,
+          "quantity": 18747968517.0,
+          "quantityUnit": "u",
+          "netWeightKg": 921497.611,
+          "quantityEstimated": false,
+          "netWeightEstimated": true
+        },
+        {
+          "code": 490,
+          "iso": "S19",
+          "name": "Other Asia, nes",
+          "value": 43157739.279,
+          "share": 9.837586126356348,
+          "quantity": 821613103.0,
+          "quantityUnit": "u",
+          "netWeightKg": 161380.573,
+          "quantityEstimated": false,
+          "netWeightEstimated": true
+        },
+        {
+          "code": 392,
+          "iso": "JPN",
+          "name": "Japan",
+          "value": 40902767.924,
+          "share": 9.323576929213969,
+          "quantity": 1047328471.0,
+          "quantityUnit": "u",
+          "netWeightKg": 152948.515,
+          "quantityEstimated": false,
+          "netWeightEstimated": true
+        },
+        {
+          "code": 702,
+          "iso": "SGP",
+          "name": "Singapore",
+          "value": 18361284.093,
+          "share": 4.185360880181156,
+          "quantity": 411670530.0,
+          "quantityUnit": "u",
+          "netWeightKg": 68658.706,
+          "quantityEstimated": false,
+          "netWeightEstimated": true
+        },
+        {
+          "code": 458,
+          "iso": "MYS",
+          "name": "Malaysia",
+          "value": 16453811.383,
+          "share": 3.750562223398174,
+          "quantity": 537647751.0,
+          "quantityUnit": "u",
+          "netWeightKg": 61526.057,
+          "quantityEstimated": false,
+          "netWeightEstimated": true
+        },
+        {
+          "code": 842,
+          "iso": "USA",
+          "name": "USA",
+          "value": 14512546.24,
+          "share": 3.308060754197064,
+          "quantity": 36470641.0,
+          "quantityUnit": "u",
+          "netWeightKg": 54267.046,
+          "quantityEstimated": false,
+          "netWeightEstimated": true
+        },
+        {
+          "code": 344,
+          "iso": "HKG",
+          "name": "China, Hong Kong SAR",
+          "value": 12434138.41,
+          "share": 2.8342983103132755,
+          "quantity": 507526193.0,
+          "quantityUnit": "u",
+          "netWeightKg": 46495.215,
+          "quantityEstimated": false,
+          "netWeightEstimated": true
+        },
+        {
+          "code": 410,
+          "iso": "KOR",
+          "name": "Rep. of Korea",
+          "value": 10999287.241,
+          "share": 2.507231318636791,
+          "quantity": 368937634.0,
+          "quantityUnit": "u",
+          "netWeightKg": 41129.849,
+          "quantityEstimated": false,
+          "netWeightEstimated": true
+        },
+        {
+          "code": 764,
+          "iso": "THA",
+          "name": "Thailand",
+          "value": 10667874.41,
+          "share": 2.4316874573778553,
+          "quantity": 395220131.0,
+          "quantityUnit": "u",
+          "netWeightKg": 39890.59,
+          "quantityEstimated": false,
+          "netWeightEstimated": true
+        },
+        {
+          "code": 608,
+          "iso": "PHL",
+          "name": "Philippines",
+          "value": 7451681.142,
+          "share": 1.698572637150168,
+          "quantity": 115965252.0,
+          "quantityUnit": "u",
+          "netWeightKg": 27864.216,
+          "quantityEstimated": false,
+          "netWeightEstimated": true
+        }
+      ],
+      "destinations": [
+        {
+          "code": 842,
+          "iso": "USA",
+          "name": "USA",
+          "value": 1891003.633,
+          "share": 15.552597225863149,
+          "quantity": 11475970.0,
+          "quantityUnit": "u",
+          "netWeightKg": null,
+          "quantityEstimated": false,
+          "netWeightEstimated": false
+        },
+        {
+          "code": 784,
+          "iso": "ARE",
+          "name": "United Arab Emirates",
+          "value": 1473742.392,
+          "share": 12.120823798256616,
+          "quantity": 100301.0,
+          "quantityUnit": "u",
+          "netWeightKg": null,
+          "quantityEstimated": false,
+          "netWeightEstimated": false
+        },
+        {
+          "code": 704,
+          "iso": "VNM",
+          "name": "Viet Nam",
+          "value": 1469652.966,
+          "share": 12.087190232274477,
+          "quantity": 9572960.0,
+          "quantityUnit": "u",
+          "netWeightKg": null,
+          "quantityEstimated": false,
+          "netWeightEstimated": false
+        },
+        {
+          "code": 826,
+          "iso": "GBR",
+          "name": "United Kingdom",
+          "value": 1268993.224,
+          "share": 10.43686016822239,
+          "quantity": 1175253.0,
+          "quantityUnit": "u",
+          "netWeightKg": null,
+          "quantityEstimated": false,
+          "netWeightEstimated": false
+        },
+        {
+          "code": 156,
+          "iso": "CHN",
+          "name": "China",
+          "value": 987025.583,
+          "share": 8.117811661561074,
+          "quantity": 66664660.0,
+          "quantityUnit": "u",
+          "netWeightKg": null,
+          "quantityEstimated": false,
+          "netWeightEstimated": false
+        },
+        {
+          "code": 344,
+          "iso": "HKG",
+          "name": "China, Hong Kong SAR",
+          "value": 840220.674,
+          "share": 6.910411749359799,
+          "quantity": 17949080.0,
+          "quantityUnit": "u",
+          "netWeightKg": null,
+          "quantityEstimated": false,
+          "netWeightEstimated": false
+        },
+        {
+          "code": 528,
+          "iso": "NLD",
+          "name": "Netherlands",
+          "value": 759388.252,
+          "share": 6.24560387685319,
+          "quantity": 43751.0,
+          "quantityUnit": "u",
+          "netWeightKg": null,
+          "quantityEstimated": false,
+          "netWeightEstimated": false
+        },
+        {
+          "code": 276,
+          "iso": "DEU",
+          "name": "Germany",
+          "value": 590801.782,
+          "share": 4.859061080274617,
+          "quantity": 2893009.0,
+          "quantityUnit": "u",
+          "netWeightKg": null,
+          "quantityEstimated": false,
+          "netWeightEstimated": false
+        },
+        {
+          "code": 643,
+          "iso": "RUS",
+          "name": "Russian Federation",
+          "value": 489865.648,
+          "share": 4.028909826071421,
+          "quantity": 2408524.0,
+          "quantityUnit": "u",
+          "netWeightKg": null,
+          "quantityEstimated": false,
+          "netWeightEstimated": false
+        },
+        {
+          "code": 233,
+          "iso": "EST",
+          "name": "Estonia",
+          "value": 325625.164,
+          "share": 2.67811067832974,
+          "quantity": 3506.0,
+          "quantityUnit": "u",
+          "netWeightKg": null,
+          "quantityEstimated": false,
+          "netWeightEstimated": false
+        }
+      ]
+    },
+    "2025": {
+      "global": {
+        "available": true,
+        "reportedWorldExports": 8366387204.563999,
+        "reportedWorldImports": 9912725591.154,
+        "worldExportGrowthYoY": -19.006016865574594,
+        "indiaExportRank": 25,
+        "indiaImportRank": 7,
+        "indiaExportShare": 0.12945127619830749,
+        "indiaImportShare": 4.905528535269281,
+        "leader": "China, Hong Kong SAR",
+        "leaderShare": 33.33185771279788,
+        "reporterCount": 71,
+        "coverageNote": "Rankings and shares use the same available country/area reporter universe for the selected year.",
+        "topExporters": [
+          {
+            "code": 344,
+            "iso": "HKG",
+            "name": "China, Hong Kong SAR",
+            "value": 2788672278.727,
+            "share": 33.33185771279788,
+            "rank": 1
+          },
+          {
+            "code": 276,
+            "iso": "DEU",
+            "name": "Germany",
+            "value": 1221890544.361,
+            "share": 14.604757280352015,
+            "rank": 2
+          },
+          {
+            "code": 702,
+            "iso": "SGP",
+            "name": "Singapore",
+            "value": 966055429.455,
+            "share": 11.546864923105653,
+            "rank": 3
+          },
+          {
+            "code": 458,
+            "iso": "MYS",
+            "name": "Malaysia",
+            "value": 642815350.708,
+            "share": 7.683308637177751,
+            "rank": 4
+          },
+          {
+            "code": 842,
+            "iso": "USA",
+            "name": "USA",
+            "value": 641952877.0,
+            "share": 7.672999842151753,
+            "rank": 5
+          },
+          {
+            "code": 392,
+            "iso": "JPN",
+            "name": "Japan",
+            "value": 510641880.811,
+            "share": 6.103493280019799,
+            "rank": 6
+          },
+          {
+            "code": 410,
+            "iso": "KOR",
+            "name": "Rep. of Korea",
+            "value": 303008633.0,
+            "share": 3.621738100224478,
+            "rank": 7
+          },
+          {
+            "code": 764,
+            "iso": "THA",
+            "name": "Thailand",
+            "value": 155181147.945,
+            "share": 1.8548167106149018,
+            "rank": 8
+          },
+          {
+            "code": 251,
+            "iso": "FRA",
+            "name": "France",
+            "value": 129438488.587,
+            "share": 1.5471252456064812,
+            "rank": 9
+          },
+          {
+            "code": 608,
+            "iso": "PHL",
+            "name": "Philippines",
+            "value": 125473297.0,
+            "share": 1.4997309344175738,
+            "rank": 10
+          }
+        ],
+        "topImporters": [
+          {
+            "code": 344,
+            "iso": "HKG",
+            "name": "China, Hong Kong SAR",
+            "value": 2550273361.804,
+            "share": 25.72726681831921,
+            "rank": 1
+          },
+          {
+            "code": 276,
+            "iso": "DEU",
+            "name": "Germany",
+            "value": 1114654122.527,
+            "share": 11.244678492075925,
+            "rank": 2
+          },
+          {
+            "code": 702,
+            "iso": "SGP",
+            "name": "Singapore",
+            "value": 724978127.489,
+            "share": 7.313610377109218,
+            "rank": 3
+          },
+          {
+            "code": 484,
+            "iso": "MEX",
+            "name": "Mexico",
+            "value": 629889054.0,
+            "share": 6.354347734210515,
+            "rank": 4
+          },
+          {
+            "code": 458,
+            "iso": "MYS",
+            "name": "Malaysia",
+            "value": 612042600.755,
+            "share": 6.174311950097556,
+            "rank": 5
+          },
+          {
+            "code": 410,
+            "iso": "KOR",
+            "name": "Rep. of Korea",
+            "value": 505230000.0,
+            "share": 5.096781862405849,
+            "rank": 6
+          },
+          {
+            "code": 699,
+            "iso": "IND",
+            "name": "India",
+            "value": 486271582.497,
+            "share": 4.905528535269281,
+            "rank": 7
+          },
+          {
+            "code": 392,
+            "iso": "JPN",
+            "name": "Japan",
+            "value": 470695990.982,
+            "share": 4.748401301474981,
+            "rank": 8
+          },
+          {
+            "code": 842,
+            "iso": "USA",
+            "name": "USA",
+            "value": 460864799.0,
+            "share": 4.649223816013532,
+            "rank": 9
+          },
+          {
+            "code": 764,
+            "iso": "THA",
+            "name": "Thailand",
+            "value": 368756649.244,
+            "share": 3.720032859308384,
+            "rank": 10
+          }
+        ]
+      },
+      "india": {
+        "reporterCode": 699,
+        "imports": 486271582.497,
+        "exports": 10830395.008,
+        "tradeBalance": -475441187.48899996,
+        "importGrowthYoY": 10.843122312051667,
+        "exportGrowthYoY": -10.925199498851047,
+        "importCAGR": 19.96913180868787,
+        "exportCAGR": 18.53458479058354,
+        "largestSupplier": {
+          "code": 156,
+          "iso": "CHN",
+          "name": "China",
+          "value": 283967498.603,
+          "share": 58.39689359284159,
+          "quantity": 18978210126.0,
+          "quantityUnit": "u",
+          "netWeightKg": 1138038.923,
+          "quantityEstimated": false,
+          "netWeightEstimated": true
+        },
+        "largestDestination": {
+          "code": 842,
+          "iso": "USA",
+          "name": "USA",
+          "value": 2824112.349,
+          "share": 26.07580191594061,
+          "quantity": 9284636.0,
+          "quantityUnit": "u",
+          "netWeightKg": 9029.726,
+          "quantityEstimated": false,
+          "netWeightEstimated": true
+        },
+        "supplierConcentration": {
+          "largestShare": 58.39689359284159,
+          "top3Share": 72.77397700084258,
+          "hhi": 0.3597294171230641,
+          "level": "High"
+        },
+        "exportMarketConcentration": {
+          "largestShare": 26.07580191594061,
+          "top3Share": 54.16586863790962,
+          "hhi": 0.12342900650751415,
+          "level": "Low"
+        }
+      },
+      "suppliers": [
+        {
+          "code": 156,
+          "iso": "CHN",
+          "name": "China",
+          "value": 283967498.603,
+          "share": 58.39689359284159,
+          "quantity": 18978210126.0,
+          "quantityUnit": "u",
+          "netWeightKg": 1138038.923,
+          "quantityEstimated": false,
+          "netWeightEstimated": true
+        },
+        {
+          "code": 392,
+          "iso": "JPN",
+          "name": "Japan",
+          "value": 40776210.792,
+          "share": 8.385480924592498,
+          "quantity": 1295047370.0,
+          "quantityUnit": "u",
+          "netWeightKg": 163416.29,
+          "quantityEstimated": false,
+          "netWeightEstimated": true
+        },
+        {
+          "code": 490,
+          "iso": "S19",
+          "name": "Other Asia, nes",
+          "value": 29135460.213,
+          "share": 5.991602483408487,
+          "quantity": 597161289.0,
+          "quantityUnit": "u",
+          "netWeightKg": 116764.376,
+          "quantityEstimated": false,
+          "netWeightEstimated": true
+        },
+        {
+          "code": 764,
+          "iso": "THA",
+          "name": "Thailand",
+          "value": 20305805.726,
+          "share": 4.175815831500965,
+          "quantity": 334159891.0,
+          "quantityUnit": "u",
+          "netWeightKg": 81378.318,
+          "quantityEstimated": false,
+          "netWeightEstimated": true
+        },
+        {
+          "code": 702,
+          "iso": "SGP",
+          "name": "Singapore",
+          "value": 18691540.546,
+          "share": 3.8438480097930285,
+          "quantity": 410176579.0,
+          "quantityUnit": "u",
+          "netWeightKg": 74908.927,
+          "quantityEstimated": false,
+          "netWeightEstimated": true
+        },
+        {
+          "code": 608,
+          "iso": "PHL",
+          "name": "Philippines",
+          "value": 17904965.547,
+          "share": 3.6820916935055443,
+          "quantity": 176502247.0,
+          "quantityUnit": "u",
+          "netWeightKg": 71756.619,
+          "quantityEstimated": false,
+          "netWeightEstimated": true
+        },
+        {
+          "code": 458,
+          "iso": "MYS",
+          "name": "Malaysia",
+          "value": 16582321.179,
+          "share": 3.4100946417329054,
+          "quantity": 586236130.0,
+          "quantityUnit": "u",
+          "netWeightKg": 66455.94,
+          "quantityEstimated": false,
+          "netWeightEstimated": true
+        },
+        {
+          "code": 842,
+          "iso": "USA",
+          "name": "USA",
+          "value": 15518702.095,
+          "share": 3.1913652069305827,
+          "quantity": 50710805.0,
+          "quantityUnit": "u",
+          "netWeightKg": 62193.339,
+          "quantityEstimated": false,
+          "netWeightEstimated": true
+        },
+        {
+          "code": 410,
+          "iso": "KOR",
+          "name": "Rep. of Korea",
+          "value": 14543286.641,
+          "share": 2.990774531038882,
+          "quantity": 502668532.0,
+          "quantityUnit": "u",
+          "netWeightKg": 58284.227,
+          "quantityEstimated": false,
+          "netWeightEstimated": true
+        },
+        {
+          "code": 344,
+          "iso": "HKG",
+          "name": "China, Hong Kong SAR",
+          "value": 7895656.439,
+          "share": 1.6237133164261581,
+          "quantity": 337610603.0,
+          "quantityUnit": "u",
+          "netWeightKg": 31642.932,
+          "quantityEstimated": false,
+          "netWeightEstimated": true
+        }
+      ],
+      "destinations": [
+        {
+          "code": 842,
+          "iso": "USA",
+          "name": "USA",
+          "value": 2824112.349,
+          "share": 26.07580191594061,
+          "quantity": 9284636.0,
+          "quantityUnit": "u",
+          "netWeightKg": 9029.726,
+          "quantityEstimated": false,
+          "netWeightEstimated": true
+        },
+        {
+          "code": 826,
+          "iso": "GBR",
+          "name": "United Kingdom",
+          "value": 1548728.999,
+          "share": 14.29983853641546,
+          "quantity": 1204480.0,
+          "quantityUnit": "u",
+          "netWeightKg": 4951.856,
+          "quantityEstimated": false,
+          "netWeightEstimated": true
+        },
+        {
+          "code": 276,
+          "iso": "DEU",
+          "name": "Germany",
+          "value": 1493536.185,
+          "share": 13.790228185553547,
+          "quantity": 15742984.0,
+          "quantityUnit": "u",
+          "netWeightKg": 4775.385,
+          "quantityEstimated": false,
+          "netWeightEstimated": true
+        },
+        {
+          "code": 344,
+          "iso": "HKG",
+          "name": "China, Hong Kong SAR",
+          "value": 978597.95,
+          "share": 9.035662589195933,
+          "quantity": 17784918.0,
+          "quantityUnit": "u",
+          "netWeightKg": 3128.938,
+          "quantityEstimated": false,
+          "netWeightEstimated": true
+        },
+        {
+          "code": 528,
+          "iso": "NLD",
+          "name": "Netherlands",
+          "value": 439609.985,
+          "share": 4.059039256419336,
+          "quantity": 966569.0,
+          "quantityUnit": "u",
+          "netWeightKg": 1405.595,
+          "quantityEstimated": false,
+          "netWeightEstimated": true
+        },
+        {
+          "code": 156,
+          "iso": "CHN",
+          "name": "China",
+          "value": 384317.107,
+          "share": 3.5485049872707286,
+          "quantity": 6921866.0,
+          "quantityUnit": "u",
+          "netWeightKg": 1228.803,
+          "quantityEstimated": false,
+          "netWeightEstimated": true
+        },
+        {
+          "code": 704,
+          "iso": "VNM",
+          "name": "Viet Nam",
+          "value": 381349.745,
+          "share": 3.5211065221380338,
+          "quantity": 12921597.0,
+          "quantityUnit": "u",
+          "netWeightKg": 1219.315,
+          "quantityEstimated": false,
+          "netWeightEstimated": true
+        },
+        {
+          "code": 233,
+          "iso": "EST",
+          "name": "Estonia",
+          "value": 314016.117,
+          "share": 2.8993967142292436,
+          "quantity": 105.0,
+          "quantityUnit": "u",
+          "netWeightKg": 1004.025,
+          "quantityEstimated": false,
+          "netWeightEstimated": true
+        },
+        {
+          "code": 752,
+          "iso": "SWE",
+          "name": "Sweden",
+          "value": 258721.8,
+          "share": 2.3888491583999665,
+          "quantity": 427391.0,
+          "quantityUnit": "u",
+          "netWeightKg": 827.229,
+          "quantityEstimated": false,
+          "netWeightEstimated": true
+        },
+        {
+          "code": 124,
+          "iso": "CAN",
+          "name": "Canada",
+          "value": 242739.397,
+          "share": 2.241279259165503,
+          "quantity": 266293.0,
+          "quantityUnit": "u",
+          "netWeightKg": 776.127,
+          "quantityEstimated": false,
+          "netWeightEstimated": true
+        }
+      ]
+    }
+  },
+  "india8": {
+    "available": true,
+    "lines": [
+      {
+        "code": "85411000",
+        "description": "None",
+        "imports": 486271582.4965978,
+        "exports": 10830395.00818685,
+        "tradeBalance": -475441187.48841095,
+        "quantity": 23519855862.0,
+        "quantityUnit": "u"
+      }
+    ],
+    "year": 2025,
+    "note": "India national tariff-line trade detail returned by UN Comtrade. DGFT/TradeStat remains the reference for official ITC(HS) nomenclature and policy treatment."
+  },
+  "supplyChain": {
+    "available": false,
+    "upstream": [],
+    "downstream": [],
+    "note": "No curated supply-chain context for this code."
+  },
+  "provenance": {
+    "authenticated": true,
+    "indiaImportRaw": "data/raw/comtrade/2020-2025_699_854110_M_ALL.parquet",
+    "indiaExportRaw": "data/raw/comtrade/2020-2025_699_854110_X_ALL.parquet",
+    "globalRaw": [
+      "data/raw/comtrade/2020-2025_ALLREPORTERS_854110_X_WORLD.parquet",
+      "data/raw/comtrade/2020-2025_ALLREPORTERS_854110_M_WORLD.parquet"
+    ],
+    "quantityCaution": "Quantity and weight may be estimated; inspect estimation flags before unit-value analysis.",
+    "globalRawRevalidation": {
+      "exportFiles": [
+        "2020-2025_ALLREPORTERS_854110_X_WORLD.parquet",
+        "2024-2025_ALLREPORTERS_854110_X_WORLD.parquet"
+      ],
+      "importFiles": [
+        "2020-2025_ALLREPORTERS_854110_M_WORLD.parquet",
+        "2025_ALLREPORTERS_854110_M_WORLD.parquet"
+      ]
+    }
+  },
+  "quality": {
+    "globalCoverageStatus": "validated",
+    "revalidatedOffline": true
+  }
+}

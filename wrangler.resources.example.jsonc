@@ -1,0 +1,13 @@
+{
+  "note": "After creating Cloudflare resources, merge these bindings into wrangler.jsonc.",
+  "d1_databases": [{
+    "binding": "DB",
+    "database_name": "hstat-india",
+    "database_id": "REPLACE_WITH_D1_DATABASE_ID"
+  }],
+  "r2_buckets": [{
+    "binding": "RAW_DATA",
+    "bucket_name": "hstat-india-raw"
+  }],
+  "triggers": { "crons": ["17 2 * * 1"] }
+}

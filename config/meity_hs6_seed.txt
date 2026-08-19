@@ -1,0 +1,10 @@
+# Conservative initial electronics / IT-hardware test set.
+# HStat does NOT hard-code descriptions; Comtrade supplies the official text.
+# Remove or add codes freely before running the batch.
+847130
+853400
+854231
+854232
+854239
+850760
+852852

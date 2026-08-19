@@ -1,0 +1,10 @@
+{
+  "84": ["machinery", "computers", "IT hardware", "data processing"],
+  "8471": ["computer", "PC", "laptop", "server", "storage", "automatic data processing", "ADP"],
+  "8473": ["computer parts", "IT hardware parts", "motherboard", "computer components", "parts and accessories"],
+  "85": ["electronics", "electrical equipment", "telecom", "semiconductors", "batteries"],
+  "8507": ["battery", "accumulator", "lithium ion", "Li-ion", "energy storage"],
+  "8517": ["telecom", "telephone", "smartphone", "mobile phone", "networking", "router", "base station", "communication equipment"],
+  "8541": ["semiconductor", "diode", "transistor", "photovoltaic", "LED", "discrete semiconductor"],
+  "8542": ["integrated circuit", "IC", "chip", "semiconductor", "processor", "CPU", "GPU", "memory", "controller"]
+}

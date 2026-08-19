@@ -1,83 +1,148 @@
-# Data Visualization Suite
+# HStat.India
 
-Four independent, embeddable tools, each a single `<div>` + `<script>` drop
-onto any host page:
+Global-to-India electronics trade intelligence for MeitY-oriented analysis.
 
-- **ASI/PLFS Microdata Dashboard** — India's Annual Survey of Industries
-  (unit-level) and Periodic Labour Force Survey (person-level) microdata.
-  Node/Express backend, DuckDB as the query engine (reads CSVs — and, for
-  PLFS, a fixed-width text file — directly, no separate DB server), vanilla
-  JS + Chart.js frontend.
-- **Financial Analyzer** (`public/financial-analyzer.html`) — multi-company
-  Screener.in "Data Sheet" exports (.xlsx/.csv), common-sized and compared
-  across companies and years. Fully client-side — files never leave the
-  browser.
-- **Trade Explorer** (`public/trade-explorer.html`) — live UN Comtrade
-  trade data: pick reporter/partner countries, HS product codes, and
-  import/export flow, then chart real trade data across years. Hybrid
-  live-fetch + shared server-side cache, bring-your-own Comtrade API key.
+## V0.1 scope
+- World-first overview.
+- Product search by product name, HS-6 and India ITC(HS)-8.
+- HS-6 product intelligence page.
+- India always visible in the global context.
+- India-specific 8-digit drill-down.
+- Supplier and destination concentration.
+- Upstream/downstream curated supply-chain context.
+- D1-ready schema and R2-ready raw-data architecture.
+- UN Comtrade extraction script using the official Python package.
 
-See [CLAUDE.md](CLAUDE.md) for the full architecture of each, and
-[CONTRIBUTING.md](CONTRIBUTING.md) for step-by-step checklists to extend
-any of them.
+**Important:** the UI currently contains clearly labelled synthetic demonstration values. They exist only to validate interaction and visual hierarchy. Do not use them as trade statistics.
 
-## Run it
+## 1. Run the interface locally
 
-```
+```bash
+cd HStat.India
 npm install
-npm start        # http://localhost:4000
+npm run dev
 ```
 
-Then open any of:
-- `http://localhost:4000/demo.html` — ASI/PLFS Microdata Dashboard
-- `http://localhost:4000/financial-analyzer.html` — Financial Analyzer
-- `http://localhost:4000/trade-explorer.html` — Trade Explorer
+Vite will print the local address, normally `http://localhost:5173`.
 
-Each page proves its own embed contract on an example host page — nothing
-in the widget is hardcoded to that page.
+## 2. Test the Cloudflare Worker build locally
 
-There is no test suite, lint config, or build step in this project;
-`npm start` plus manual verification (curl the API, drive the demo pages
-in a browser) are the feedback loops throughout.
+```bash
+npm run build
+npx wrangler dev
+```
 
-## ASI/PLFS: adding a new dataset
+Check:
 
-All 10 ASI blocks (A–J) are registered as modules (`server/modules/`), fed
-into a combined `unit_summary` dataset that also exposes the 27 official
-ASI "Principal Characteristics" (Gross Value Added, Net Profit, Fixed
-Capital Formation, etc.) as cross-block derived measures
-(`server/derived/`), plus productivity/composition ratio measures (Output
-per Worker, Labor Income % of GVA, Women Workforce Share, Employment per
-Crore of Fixed Capital) computed as true ratios-of-aggregates rather than
-an average of per-unit ratios. PLFS person-level microdata is a second,
-unrelated survey registered the same way, as a `standalone: true` module.
-See [CONTRIBUTING.md](CONTRIBUTING.md) for how all of this works — adding
-a dataset is a single-file addition, no other code changes required.
+```bash
+curl http://localhost:8787/api/health
+```
 
-### Weighting
+## 3. Set up UN Comtrade extraction
 
-ASI and PLFS are both sample surveys, not a census. Every chart supports a
-**raw** mode (plain sum/avg/count/min/max) and a **weighted** mode using
-each unit's own sampling multiplier:
+UN Comtrade's official `comtradeapicall` package is used rather than maintaining a hand-written API wrapper.
 
-- weighted sum = `sum(value * mult)`
-- weighted average = `sum(value * mult) / sum(mult)` (not an average of
-  pre-weighted rows)
-- weighted count = `sum(mult)`
+```bash
+python3 -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt
+```
 
-Toggle it in the UI to compare both.
+Keyless preview test:
 
-### Security
+```bash
+python pipeline/ingest_comtrade.py --preview --period 2025 --cmd 847130 --flow M
+```
 
-Every dataset/dimension/measure/aggregation/filter key from the frontend is
-checked against a whitelist built from `server/modules/*.module.js` before
-it ever reaches SQL (`server/query/validate.js`). Filter *values* are always
-bound as prepared-statement parameters. See `server/query/buildSql.js`. The
-Trade Explorer's own request validation (`server/routes/comtrade.js`) works
-the same way but is entirely separate — it has no module registry to build
-a whitelist from.
+For authenticated extraction, first place the API key in the shell (never commit it):
 
-## Deployment
+```bash
+export COMTRADE_API_KEY='YOUR_KEY_HERE'
+python pipeline/ingest_comtrade.py --period 2025 --cmd 847130 --flow M
+```
 
-See [DEPLOY.md](DEPLOY.md) for deploying to Render with a persistent disk
-(needed for the ASI/PLFS source data and the Trade Explorer's shared cache).
+The script writes immutable snapshots to `data/raw/comtrade/` and a provenance manifest to `data/manifests/`.
+
+## 4. Create Cloudflare storage when ready
+
+Login:
+
+```bash
+npx wrangler login
+```
+
+Create D1:
+
+```bash
+npx wrangler d1 create hstat-india
+```
+
+Create R2:
+
+```bash
+npx wrangler r2 bucket create hstat-india-raw
+```
+
+Copy the D1 database ID returned by Wrangler into `wrangler.jsonc`, using `wrangler.resources.example.jsonc` as the binding template. Add the R2 binding and the weekly cron only after the resources exist.
+
+Initialise D1:
+
+```bash
+npx wrangler d1 execute hstat-india --remote --file=database/schema.sql
+npx wrangler d1 execute hstat-india --remote --file=database/seed.sql
+```
+
+Store the Comtrade key in Cloudflare:
+
+```bash
+npx wrangler secret put COMTRADE_API_KEY
+```
+
+## 5. Deploy
+
+```bash
+npm run deploy
+```
+
+Cloudflare will return the Worker URL.
+
+## 6. GitHub
+
+```bash
+git init
+git add .
+git commit -m "Initial HStat.India prototype"
+git branch -M main
+git remote add origin YOUR_GITHUB_REPOSITORY_URL
+git push -u origin main
+```
+
+`node_modules`, build output and environment/secrets are excluded by `.gitignore`.
+
+## Architecture
+
+```text
+UN Comtrade ─┐
+             ├─> extraction + manifests ─> raw archive (R2)
+India ITC(HS)┘                              │
+                                            v
+                                  validation / transforms
+                                            │
+                                            v
+                                   analytics tables (D1)
+                                            │
+                                            v
+                                     Worker API
+                                            │
+                                            v
+                                     React interface
+```
+
+GitHub contains application code, schema, methodology, mappings and reproducible processing logic — not the primary trade warehouse.
+
+## Immediate next implementation milestone
+1. Validate the MeitY product universe and HS-6 list.
+2. Load current official HS descriptions and country reference tables.
+3. Establish the authoritative India 8-digit data acquisition route.
+4. Replace synthetic UI fixtures with validated source data.
+5. Add derived indicators and deterministic policy-insight rules.
